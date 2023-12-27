@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="p-0 ">
+{{-- <section class="p-0 ">
     <div class="container">
         <h3 class="title mb-5 mt-5">Les entreprises offrant le service choisi</h3>
         <div class="row">
@@ -26,5 +26,24 @@
         </div>
 
     </div>
-</section>
+</section> --}}
+<section class="blog-section">
+    <div class="tf-container">
+      <div class="group-col-3">
+        @forelse ($serviceEntreprises as $serviceEntreprise)
+            <div class="widget-blog-1 style-1 cl3 stc">
+                <div class="img-blog">
+                    <img src="images/blog/image-15.jpg" alt="image">
+                </div>
+                <div class="content">
+                    <h5 class="main-title"><a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}">{{$serviceEntreprise->name}}</a></h5>
+                </div>
+            </div>
+        @empty
+            Aucune Entreprise ne propose ne service
+        @endforelse
+
+    </div>
+
+  </section>
 @endsection
