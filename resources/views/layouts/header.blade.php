@@ -141,7 +141,7 @@
                     @elseif(auth()->user()->hasRole('serviceClient'))
                         <li><a href="/administration" class="list-item ud-btn btn-white add-joining text-uppercase">Aller au tableau de bord</a></li>
                     @else
-                        <p>Erreur d'Authentification</p>
+                        <p>Erreur d'authentification</p>
                     @endif
 
 
