@@ -47,7 +47,7 @@ class AuthentificationController extends Controller
 
 
         $user = User::create([
-            'name' => $request->input('name'),
+            'name' => $request->input('nom'),
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
             'email_verified_at' => now(),
@@ -107,7 +107,7 @@ class AuthentificationController extends Controller
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
             'email_verified_at' => now(),
-            
+
         ])->assignRole("compagny");
 
         // nouvelle entreprise

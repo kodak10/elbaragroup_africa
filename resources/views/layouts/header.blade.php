@@ -18,11 +18,11 @@
         <div class="col-md-12">
         <div class="sticky-area-wrap">
             <div class="header-ct-left">
-            {{-- <div id="logo" class="logo">
+            <div id="logo" class="logo">
                 <a href="/">
-                <img class="site-logo" id="trans-logo" src="{{asset('assets/images/logo.jpeg')}}" alt="Logo"/>
+                <img class="site-logo" id="trans-logo" src="" alt="Logo"/>
                 </a>
-            </div> --}}
+            </div>
             <div class="categories">
                 <a href="#"><span class="icon-grid"></span>Categories</a>
                 <div class="sub-categorie">
@@ -93,7 +93,7 @@
                         <div class="sub-account-item">
                             <a href="/compagny"><span class="icon-dashboard"></span>Menu Général</a>
                         </div>
-                        
+
                         <div class="sub-account-item">
                             <a href="/compagny/mon_compte"><span class="icon-dashboard"></span>Parametrage du compte</a>
                         </div>

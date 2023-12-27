@@ -1,28 +1,23 @@
 @extends('layouts.app')
 @section('content')
-<section class="bg-f5">
-    <div class="tf-container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="page-title">
-            <div class="widget-menu-link">
-              <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="#">Connexion</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<style>
+    .header{
+        background-color: #1F4B3F !important;
+    }
+    #header .style-absolute{
+        position: fixed !important;
+    }
+    .header{
+        position: fixed !important;
+    }
+</style>
 
 
   <section class="account-section">
     <div class="tf-container">
       <div class="row">
         <div class="wd-form-login">
-          <h4>Connexion</h4>
+          <h4 class="mt-5">Connexion</h4>
                 @if(session('success') === false)
                 <div class="alert alert-danger">
                     {{ session('message') }}

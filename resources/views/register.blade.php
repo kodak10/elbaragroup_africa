@@ -8,29 +8,25 @@
         font-size: 16px;
     }
 </style>
-<section class="bg-f5">
-    <div class="tf-container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="page-title">
-                    <div class="widget-menu-link">
-                        <ul>
-                            <li><a href="/">Accueil</a></li>
-                            <li><a href="#">Inscription</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </section>
+<style>
+    .header{
+        background-color: #1F4B3F !important;
+    }
+    #header .style-absolute{
+        position: fixed !important;
+    }
+    .header{
+        position: fixed !important;
+    }
+</style>
+
 
 
   <section class="account-section">
         <div class="tf-container">
             <div class="row">
               <div class="wd-form-login tf-tab">
-                    <h4>Inscription</h4>
+                    <h4 class="mt-5">Inscription</h4>
                     <ul class="menu-tab">
                         <li class="ct-tab active">Entreprise</li>
                         <li class="ct-tab">Client</li>
@@ -85,7 +81,7 @@
                                     <label class="form-label fw600 dark-color">Mot de passe</label>
                                     <div class="inputs-group auth-pass-inputgroup">
                                         <input type="password" class="input-form password-input" name="password"  placeholder="Mot de passe" required>
-                                        <a class="icon-eye-off password-addon"></a>
+                                        <a class="icon-eye-off password-addon"  id="password-addon"></a>
                                     </div>
                                     {{-- <input type="password" class="form-control" placeholder="Mot de passe" name="password" required> --}}
                                 </div>
@@ -93,7 +89,7 @@
                                     <label class="form-label fw600 dark-color">Confirmation de mot de passe</label>
                                     <div class="inputs-group auth-pass-inputgroup">
                                         <input type="password" class="input-form password-input" name="password_confirmation" placeholder="Confirmation du mot de passe" required>
-                                        <a class="icon-eye-off password-addon"></a>
+                                        <a class="icon-eye-off password-addon"  id="password-addon"></a>
                                     </div>
                                     {{-- <input type="password" class="form-control" placeholder="Confirmer le mot de passe" name="password_confirmation"> --}}
                                 </div>
@@ -150,32 +146,38 @@
                                 </div>
                             @endif
                             <form method="post" action="{{route('inscription_client')}}">
+                                @csrf
                                 <div class="ip">
                                     <label >Nom<span>*</span></label>
-                                    <input type="text" placeholder="Nom" name="name" required>
+                                    <input type="text" placeholder="Nom" name="nom" required>
                                 </div>
                                 <div class="ip">
                                     <label >Prenoms<span>*</span></label>
-                                    <input type="text" placeholder="Prenoms" name="prenom" required>
+                                    <input type="text" placeholder="Prenoms" name="prenoms" required>
                                 </div>
                                 <div class="ip">
                                     <label >Email<span>*</span></label>
-                                    <input type="text" placeholder="Email" required>
+                                    <input type="text" placeholder="Email" name="email" required>
+                                </div>
+                                <div class="ip">
+                                    <label >Numéro de téléphone<span>*</span></label>
+                                    <input type="text" placeholder="Numéro de téléphone" name="telephone" required>
                                 </div>
                                 <div class="ip">
                                     <label >Mot de passe<span>*</span></label>
                                     <div class="inputs-group auth-pass-inputgroup">
-                                        <input type="password" class="input-form password-input" placeholder="Mot de passe" required>
-                                        <a class="icon-eye-off password-addon"></a>
+                                        <input type="password" class="input-form password-input" placeholder="Mot de passe" name="password" required>
+                                        <a class="icon-eye-off password-addon"  id="password-addon"></a>
                                     </div>
                                 </div>
                                 <div class="ip">
                                     <label >Confirmation du mot de passe<span>*</span></label>
                                     <div class="inputs-group auth-pass-inputgroup">
-                                        <input type="password" class="input-form password-input" placeholder="Confirmation du mot de passe" required>
-                                        <a class="icon-eye-off password-addon"></a>
+                                        <input type="password" class="input-form password-input" placeholder="Confirmation du mot de passe" name="password_confirmation" required>
+                                        <a class="icon-eye-off password-addon"  id="password-addon"></a>
                                     </div>
                                 </div>
+
                                 {{-- <div class="group-ant-choice st">
                                   <div class="sub-ip"><input type="checkbox">I agree to the <a href="#">Terms of User</a></div>
                                 </div> --}}
