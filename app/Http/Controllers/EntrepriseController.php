@@ -135,9 +135,10 @@ class EntrepriseController extends Controller
 
     public function index()
     {
+        $categories = Departement::get();
         $demandes = DemandeService::where('entreprise_id', Auth::user()->compagny->id);
 
-        return view('dashboard.entreprises.home', compact('demandes'));
+        return view('dashboard.entreprises.home', compact('demandes', 'categories'));
     }
 
     // Service

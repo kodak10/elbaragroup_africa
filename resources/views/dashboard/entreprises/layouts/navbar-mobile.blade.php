@@ -226,7 +226,7 @@
                 class="path3"></span><span class="path4"></span></span>
           </div>
           <div class="content">
-            <p>Need help? 24/7</p>
+            <p>Besoin de nous ?</p>
             <h6><a href="tel:0123456678">001-1234-88888</a></h6>
           </div>
         </div>
