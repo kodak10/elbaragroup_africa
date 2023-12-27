@@ -56,31 +56,33 @@
                         </div>
                         <div class="sub-account">
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Menu Général</a>
+                            <a href="/compagny"><span class="icon-dashboard"></span>Menu Général</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Aperçu du compte</a>
+                            <a href=""><span class="icon-dashboard"></span>Aperçu du compte</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Parametrage du compte</a>
+                            <a href="/compagny/edit-account"><span class="icon-dashboard"></span>Parametrage du compte</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Poster un service</a>
+                            <a href="/compagny/create-service"><span class="icon-dashboard"></span>Poster un service</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Mes Services</a>
+                            <a href="/compagny/service"><span class="icon-dashboard"></span>Mes Services</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Modification de mot de passe</a>
+                            <a href="/compagny/messaget"><span class="icon-dashboard"></span>Mes Messages</a>
+                        </div>
+                        <div class="sub-account-item">
+                            <a href="/dashboard-entreprise"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
                         </div>
                         <div class="sub-account-item">
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
 
                                 <span class="icon-log-out"></span> Se Déconnecter</a>
-                                <form id="logout-form" action="" method="POST" style="">
+                                <form id="logout-form" action="{{route('logout')}}" method="POST" style="">
                                     @csrf
                                 </form>
-                            {{-- <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Menu Général</a> --}}
                         </div>
 
                     @elseif(auth()->user()->hasRole('compagny'))
@@ -101,10 +103,10 @@
                             <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Poster un service</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Mes Services</a>
+                            <a href="/dashboard-entreprise"><span class="dash-titles"></span>Mes Services</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Modification de mot de passe</a>
+                            <a href="/dashboard-entreprise"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
                         </div>
                         <div class="sub-account-item">
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
