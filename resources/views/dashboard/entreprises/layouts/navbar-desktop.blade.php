@@ -261,10 +261,7 @@
                                         <a href="/compagny/message"><span class="icon-chat"></span> Messages</a>
                                     </div>
 
-                                    <div class="sub-account-item">
-                                        <a href="/compagny/edit-password"><span class="icon-change-passwords"></span> Modification de mot de passe
-                                        </a>
-                                    </div>
+                                   
 
                                     <div class="sub-account-item">
                                         <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">

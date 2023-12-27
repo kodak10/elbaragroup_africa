@@ -1,24 +1,16 @@
 @extends('layouts.app')
 @section('content')
 
-    <section class="bg-f5 breadcrumb-section">
-        <div class="tf-container">
-        <div class="row">
-            <div class="col-lg-12">
-            <div class="page-title">
-                <div class="widget-menu-link">
-                <ul>
-                    <li><a href="home-01.html">Home</a></li>
-                    <li><a href="#">Find Jobs</a></li>
-                </ul>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </section>
+<style>
+    .header{
+        margin-bottom: 3rem !important;
+        background-color: #1F4B3F !important;
+    }
+</style>
 
-    <section class="form-sticky stc1">
+
+
+    <section class="form-sticky stc1 mt-5">
         <div class="tf-container">
         <div class="job-search-form inner-form-map st1">
             <form method="get" action="{{route('services.search')}}">
@@ -48,23 +40,20 @@
 
             <div class="row mt-5">
                 @forelse ($services as $service )
-                    <div class="col-lg-3">
-                        <div class="listing-style1">
-                            <div class="list-thumb">
-                                <img class="w-100 zoomRotateImage" src="{{$service->image}}" alt="Image">
-                                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+                    <div class="col-lg-3 mt-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{asset('assets/images/blog/image-03.jpg')}}" class="card-img-top zoomRotateImage img-fluid w-100" alt="..." style="height: 200px !important">
+                            <div class="card-body p-2 mb-3">
+                              <p class="card-text"><a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}}</a></p>
                             </div>
-                            <div class="list-content">
-                                <p class="list-text body-color fz14 mb-1"><a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}}</a></p>
-                            </div>
-                        </div>
+                          </div>
                     </div>
 
                     @empty
                     <span>Aucun résultat trouvé</span>
                 @endforelse
 
-                <div class="d-flex justify-content-center mb-5 ">
+                <div class="d-flex justify-content-center mb-5 mt-5">
                     {{ $services->links() }}
                 </div>
 

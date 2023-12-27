@@ -1,5 +1,11 @@
 @extends('layouts.app')
 @section('content')
+<style>
+    .header{
+        margin-bottom: 3rem !important;
+        background-color: #1F4B3F !important;
+    }
+</style>
 {{-- <section class="p-0 ">
     <div class="container">
         <h3 class="title mb-5 mt-5">Les entreprises offrant le service choisi</h3>
@@ -27,13 +33,13 @@
 
     </div>
 </section> --}}
-<section class="blog-section">
+<section class="blog-section mt-5">
     <div class="tf-container">
       <div class="group-col-3">
         @forelse ($serviceEntreprises as $serviceEntreprise)
             <div class="widget-blog-1 style-1 cl3 stc">
                 <div class="img-blog">
-                    <img src="images/blog/image-15.jpg" alt="image">
+                    <img src="{{asset('assets/images/blog/image-01.jpg')}}" alt="image">
                 </div>
                 <div class="content">
                     <h5 class="main-title"><a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}">{{$serviceEntreprise->name}}</a></h5>

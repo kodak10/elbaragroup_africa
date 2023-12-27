@@ -48,6 +48,7 @@
             <div class="header-ct-right">
 
                 @auth
+
                 <div class="header-customize-item account">
                     <img src="{{asset('assets/images/user/avatar/image-01.jpg')}}" alt="" />
                     @if (auth()->user()->hasRole('client'))
@@ -58,24 +59,20 @@
                         <div class="sub-account-item">
                             <a href="/compagny"><span class="icon-dashboard"></span>Menu Général</a>
                         </div>
+
                         <div class="sub-account-item">
-                            <a href=""><span class="icon-dashboard"></span>Aperçu du compte</a>
-                        </div>
-                        <div class="sub-account-item">
-                            <a href="/compagny/mon_compte"><span class="icon-dashboard"></span>Parametrage du compte</a>
+                            <a href="/compagny/mon_compte"><span class="icon-mypackage"></span>Parametrage du compte</a>
                         </div>
                         <div class="sub-account-item">
                             <a href="/compagny/create-service"><span class="icon-dashboard"></span>Poster un service</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/compagny/service"><span class="icon-dashboard"></span>Mes Services</a>
+                            <a href="/compagny/service"><span class="icon-work"></span>Mes Services</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/compagny/messaget"><span class="icon-dashboard"></span>Mes Messages</a>
+                            <a href="/compagny/messaget"><span class="icon-chat"></span>Messages</a>
                         </div>
-                        <div class="sub-account-item">
-                            <a href="/compagny/edit-password"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
-                        </div>
+                       
                         <div class="sub-account-item">
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
 
@@ -95,20 +92,18 @@
                         </div>
 
                         <div class="sub-account-item">
-                            <a href="/compagny/mon_compte"><span class="icon-dashboard"></span>Parametrage du compte</a>
+                            <a href="/compagny/mon_compte"><span class="icon-mypackage"></span>Parametrage du compte</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/compagny/create-service"><span class="icon-dashboard"></span>Poster un service</a>
+                            <a href="/compagny/create-service"><span class="icon-submit"></span>Poster un service</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/compagny/service"><span class="dash-titles"></span>Mes Services</a>
+                            <a href="/compagny/service"><span class="icon-work"></span>Mes Services</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/compagny/message"><span class="dash-titles"></span>Mes Messages</a>
+                            <a href="/compagny/message"><span class="icon-chat"></span>Messages</a>
                         </div>
-                        <div class="sub-account-item">
-                            <a href="/compagny/edit-password"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
-                        </div>
+
                         <div class="sub-account-item">
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
 

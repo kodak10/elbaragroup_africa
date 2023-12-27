@@ -80,12 +80,7 @@
           </a>
         </li> -->
 
-        <li>
-          <a href="/compagny/edit-password" class="tf-effect">
-            <span class="icon-change-passwords dash-icon"></span>
-            <span class="dash-titles">Modification de mot de passe</span>
-          </a>
-        </li>
+       
 
         <!-- <li>
           <a href="employer-delete-profile.html" class="tf-effect ">

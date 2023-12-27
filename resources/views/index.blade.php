@@ -192,7 +192,7 @@
                                     <div class="inner-box">
                                        <div class="col-lg-4">
                                             <div class="logo-company">
-                                                <img class="img-fluid w-100 zoomRotateImage" src="images/logo-company/cty8.png"
+                                                <img class="img-fluid w-100 zoomRotateImage" src="{{asset('assets/images/blog/image-08.jpg')}}"
                                                     alt="image" />
                                             </div>
                                        </div>
@@ -536,8 +536,8 @@
                         <div class="employer-block">
                         <div class="inner-box">
                             <div class="logo-company">
-                            <img src="images/logo-company/cty16.png"
-                                alt="images/logo-company/cty16.png" />
+                            <img src="{{asset('assets/images/logo-company/cty11.png')}}"
+                                alt="logo" />
                             </div>
                             <div class="box-content">
                             {{-- <div class="star">
@@ -588,7 +588,7 @@
                         <p class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
                         <div class="author-group">
                         <div class="avatar">
-                            <img src="images/review/testimonials.jpg" alt="images">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
                         </div>
                         <div class="infor">
                             <h6>Pete Jones</h6>
@@ -635,7 +635,7 @@
 
                         <div class="author-group">
                         <div class="avatar">
-                            <img src="images/review/testimonials.jpg" alt="images">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
                         </div>
                         <div class="infor">
                             <h6>Pete Jones</h6>
@@ -682,7 +682,7 @@
 
                         <div class="author-group">
                         <div class="avatar">
-                            <img src="images/review/testimonials.jpg" alt="images">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
                         </div>
                         <div class="infor">
                             <h6>Pete Jones</h6>
@@ -729,7 +729,7 @@
 
                         <div class="author-group">
                         <div class="avatar">
-                            <img src="images/review/testimonials.jpg" alt="images">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
                         </div>
                         <div class="infor">
                             <h6>Pete Jones</h6>
@@ -1093,8 +1093,7 @@
               <div class="wd-review-job contentbox1 padding">
                 <h3>Trouvez une entreprise  pour mettre sur pied vos projets.</h3>
                 <p>
-                  Search millions of jobs and get the inside scoop on companies
-                  with employee reviews, personalized salary tools, and more.
+                    Recherchez des entreprise certifié et qualifiées afin de repondre à vos besoins.
                 </p>
                 <ul class="wd-list-icon wow fadeInLeft">
                   <li>
@@ -1103,7 +1102,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
                           fill="#14A077" />
-                      </svg> </span>Access to millions of job seekers
+                      </svg> </span>Accès à des millions de demandeurs de service.
                   </li>
                   <li>
                     <span class="icon">
@@ -1111,7 +1110,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
                           fill="#14A077" />
-                      </svg> </span>Only pay for the candidates you want to contact
+                      </svg> </span>Contacter directement avec les entreprises.
                   </li>
                   <li>
                     <span class="icon">
@@ -1119,25 +1118,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
                           fill="#14A077" />
-                      </svg> </span>Post unlimited jobs for free—all from one place
-                  </li>
-                  <li>
-                    <span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg> </span>Premium job placement on SimplyHired, Indeed, & over 100 job
-                    sites
-                  </li>
-                  <li>
-                    <span class="icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                          fill="#14A077" />
-                      </svg> </span>Hiring solutions & pricing that works with seasonal hiring
-                    changes
+                      </svg> </span>Publiez gratuitement un nombre illimité d'offres de service, le tout à partir d'un seul endroit
                   </li>
                 </ul>
               </div>
@@ -1150,9 +1131,9 @@
                 <div class="trader-box">
                   <div class="content">
                     <h3 class="number wrap-counter">
-                      <span class="number counter-number" data-speed="2000" data-to="25"></span><span>M+</span>
+                      <span class="number counter-number" data-speed="200" data-to="25"></span>
                     </h3>
-                    <div class="des">Jobs Available</div>
+                    <div class="des">Services disponibles</div>
                   </div>
                   <div class="shape ani7">
                     <img src="{{asset('assets/images/review/shape.png')}}" alt="images" />
@@ -1166,9 +1147,9 @@
                     </div>
                     <div class="content">
                       <h6 class="number wrap-counter">
-                        <span class="number counter-number" data-speed="2000" data-to="480"></span><span>+</span>
+                        <span class="number counter-number" data-speed="2000" data-to="20000"></span><span>+</span>
                       </h6>
-                      <div class="des">Happpy Candidates</div>
+                      <div class="des">Client satistaits</div>
                     </div>
                   </div>
                 </div>

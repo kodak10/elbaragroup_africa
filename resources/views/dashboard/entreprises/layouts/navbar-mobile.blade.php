@@ -233,11 +233,6 @@
         <div class="wd-social d-flex aln-center">
           <ul class="list-social d-flex aln-center">
             <li><a href="#"><i class="icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-pinterest"></i></a></li>
-            <li><a href="#"><i class="icon-instagram1"></i></a></li>
-            <li><a href="#"><i class="icon-youtube"></i></a></li>
           </ul>
         </div>
       </div>

@@ -2,16 +2,16 @@
 @section('content')
 
 <style>
-    #header {
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-    height: 80px;
-}
-.header {
-    position: relative !important;
-}
+    .header{
+        background-color: #1F4B3F !important;
+        margin-bottom: 3rem !important;
+    }
+    #header .style-absolute{
+        position: fixed !important;
+    }
+    .header{
+        position: fixed !important;
+    }
 </style>
 <section class="single-job-thumb">
     <img src="{{asset('assets/images/review/singlejob.jpg')}}" alt="images">
@@ -177,36 +177,27 @@
 
     </div>
       <ul class="list-infor">
-        <li><div class="category">Website</div><div class="detail"><a href="#">avitex.vn</a></div></li>
-        <li><div class="category">Email</div><div class="detail"><a href="https://themesflat.co/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3c5455125d4a554859447c5b515d5550125f5351">[email&#160;protected]</a></div></li>
-        <li><div class="category">Industry</div><div class="detail">Internet Publishing</div></li>
-        <li><div class="category">Company size</div><div class="detail">51-200 employees</div></li>
-        <li><div class="category">Headquarters</div><div class="detail">3 S Valley , Las Vegas, USA</div></li>
-        <li><div class="category">Founded</div><div class="detail">2017</div></li>
+        <li><div class="category">Site Web</div><div class="detail"><a href="#"></a></div></li>
+        <li><div class="category">Localisation</div><div class="detail">{{$serviceDetails->localisation}}</div></li>
       </ul>
 
       <div class="wd-social d-flex aln-center">
         <span>Socials:</span>
         <ul class="list-social d-flex aln-center">
             <li><a href="#"><i class="icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-pinterest"></i></a></li>
-            <li><a href="#"><i class="icon-instagram1"></i></a></li>
-            <li><a href="#"><i class="icon-youtube"></i></a></li>
         </ul>
     </div>
-    <div class="form-job-single">
+    {{-- <div class="form-job-single">
       <h6>Contact Us</h6>
-      <form action="https://themesflat.co/html/jobtex/post">
+      <form action="#">
         <input type="text" placeholder="Subject">
         <input type="text" placeholder="Name">
         <input type="email" placeholder="Email">
         <textarea placeholder="Message..."></textarea>
-        <button>Send Message</button>
+        <button>Envoyer le messager</button>
       </form>
 
-    </div>
+    </div> --}}
     </div>
   </div>
 </div>
