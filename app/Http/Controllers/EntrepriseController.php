@@ -53,11 +53,13 @@ class EntrepriseController extends Controller
 
     public function edit_account()
     {
-        return view('dashboard.entreprises.edit-account');
+        $categories = Departement::get();
+        return view('dashboard.entreprises.edit-account', compact('categories'));
     }
 
     public function update(Request $request)
     {
+
         $user = Auth::user() ;
         $compagny = Auth::user()->compagny ;
 
