@@ -49,9 +49,11 @@ Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'ser
         Route::post('/mon_compte', [EntrepriseController::class, 'update'])->name('update_profil');
         Route::get('/message', [EntrepriseController::class, 'message']);
         Route::get('/edit-password', [EntrepriseController::class, 'edit_password']);
+        Route::get('/create-service', [EntrepriseController::class, 'create_service']);
 
 
-       
+
+
 
     });
 
