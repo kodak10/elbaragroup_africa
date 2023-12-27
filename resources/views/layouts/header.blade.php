@@ -93,20 +93,21 @@
                         <div class="sub-account-item">
                             <a href="/compagny"><span class="icon-dashboard"></span>Menu Général</a>
                         </div>
+                        
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Aperçu du compte</a>
+                            <a href="/compagny/mon_compte"><span class="icon-dashboard"></span>Parametrage du compte</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Parametrage du compte</a>
+                            <a href="/compagny/create-service"><span class="icon-dashboard"></span>Poster un service</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Poster un service</a>
+                            <a href="/compagny/service"><span class="dash-titles"></span>Mes Services</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="dash-titles"></span>Mes Services</a>
+                            <a href="/compagny/message"><span class="dash-titles"></span>Mes Messages</a>
                         </div>
                         <div class="sub-account-item">
-                            <a href="/dashboard-entreprise"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
+                            <a href="/compagny/edit-password"><span class="icon-change-passwords dash-icon"></span>Modification de mot de passe</a>
                         </div>
                         <div class="sub-account-item">
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
