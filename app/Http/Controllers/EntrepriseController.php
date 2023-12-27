@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Service;
+use App\Models\Departement;
 use Illuminate\Http\Request;
 use App\Models\DemandeService;
 use Illuminate\Support\Facades\Auth;

@@ -49,16 +49,12 @@
       <div class="content-right">
         <div class="top">
           <a href="#" class="share"><i class="icon-share2"></i></a>
-          <a class="btn btn-popup" data-toggle="modal" data-target="#exampleModal"><i class="icon-send"></i>Contactez-Nous</a>
           <button type="button" class="btn btn-primary btn_contact" data-toggle="modal" data-target="#exampleModal">
             Contactez l'entreprise <i class="fal fa-arrow-right-long"></i>
         </button>
         </div>
 
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
+
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -153,7 +149,7 @@
             <p>{{$serviceDetails->se_description}}</p>
 
             <div class="video-thumb">
-                
+
                 <ul class="thumb-menu menu-tab2">
                   <li class="ct-tab2"> <a class="lightbox-gallery" href="{{asset('assets/images/review/thumbv4.jpg')}}"><img src="{{asset('assets/images/review/thumbv4.jpg')}}" alt="images"></a> </li>
                   <li class="ct-tab2"> <a class="lightbox-gallery" href="{{asset('assets/images/review/thumbv1.jpg')}}"><img src="{{asset('assets/images/review/thumbv1.jpg')}}" alt="images"></a></li>
