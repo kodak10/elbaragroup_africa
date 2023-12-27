@@ -82,6 +82,7 @@
   <script src="{{asset('assets/javascript/dashboard-menu.js')}}"></script>
   <script src="{{asset('assets/javascript/password-addon.js')}}"></script>
 
+  <script src="{{asset('assets/javascript/messages.js')}}"></script>
 
 
 

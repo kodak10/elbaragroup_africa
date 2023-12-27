@@ -202,7 +202,7 @@
                                                     <a href="">{{$service->departements->libelle}}</a>
                                                 </h4> --}}
                                                 <h3>
-                                                    <a href="">{{$service->libelle}} </a>
+                                                    <a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}} </a>
                                                     <span class="icon-bolt"></span>
                                                 </h3>
                                                 {{-- <ul>
@@ -235,7 +235,7 @@
 
             <div class="col-md-12">
                 <div class="wrap-button">
-                    <a href="find-jobs-list.html" class="tf-button style-1">
+                    <a href="/services" class="tf-button style-1">
                     Voir tous les services
                     <span class="icon-keyboard_arrow_right"></span>
                     </a>
@@ -793,7 +793,7 @@
               <div class="column-6">
                 <div class="group-iconbox">
                   <div class="title-iconbox">
-                    <h3>Rejoignez notre plateforme de mise en relation client-entreprise grâce à nos services de premier ordre.</h3>
+                    <h3 class="text-white">Rejoignez notre plateforme de mise en relation client-entreprise grâce à nos services de premier ordre.</h3>
                     <p class="text-white">
                         Vous avez désormais l'opportunité de vous connecter avec les entreprises du monde entier.
                         Nous mettons à votre disposition un réseau d'entreprise dotés d'une solide expérience commerciale.
@@ -851,7 +851,7 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Connectez-vous à des entreprises ayant une expérience commerciale approuvée.</a>
+                          <a href="#" class="text-white">Connectez-vous à des entreprises ayant une expérience commerciale approuvée.</a>
                         </h1>
 
                       </div>
@@ -896,7 +896,7 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Entrer en contact avec les meilleurs entreprises pour votre service.</a>
+                          <a href="#" class="text-white">Entrer en contact avec les meilleurs entreprises pour votre service.</a>
                         </h1>
 
                       </div>
@@ -951,12 +951,12 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Accompagnement personnalisé.</a>
+                          <a href="#" class="text-white">Accompagnement personnalisé.</a>
                         </h1>
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
