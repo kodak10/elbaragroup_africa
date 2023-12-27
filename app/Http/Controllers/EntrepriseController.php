@@ -147,8 +147,9 @@ class EntrepriseController extends Controller
     // Service
     public function create_service()
     {
+        $categories = Departement::get();
         $service = Service::get();
-        return view('dashboard.entreprises.services.create', compact('service'));
+        return view('dashboard.entreprises.services.create', compact('service', 'categories'));
     }
 
     public function create_service_store()
