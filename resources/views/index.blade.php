@@ -107,8 +107,8 @@
                       <div class="badge"></div>
                     </div>
                     <div class="content">
-                      <h6 class="number wrap-counter">1M+ recruiters</h6>
-                      <div class="des">Happpy Candidates</div>
+                      <h6 class="number wrap-counter">+10M clients</h6>
+                      <div class="des">sont satisfaits</div>
                     </div>
                   </div>
                 </div>
@@ -123,9 +123,9 @@
                 </div>
                 <!-- bug counter -->
                 <div class="chart-box counter">
-                  <h6>Candidates</h6>
+                  <h6>Demandes</h6>
                   <div class="chart" data-percent="60" data-size="83" data-withh="10" data-barcolor="#44e720"
-                    data-trackcolor="#ecf7ea" data-text="success">
+                    data-trackcolor="#ecf7ea" data-text="traiter">
                     <div class="inner">
                       <div class="percent"></div>
                       <div class="text"></div>
@@ -793,10 +793,11 @@
               <div class="column-6">
                 <div class="group-iconbox">
                   <div class="title-iconbox">
-                    <h1>What can I do with Jobtex?</h1>
-                    <p>
-                      Streamline your hiring process with strategic channels to
-                      reach qualified candidates
+                    <h3>Rejoignez notre plateforme de mise en relation client-entreprise grâce à nos services de premier ordre.</h3>
+                    <p class="text-white">
+                        Vous avez désormais l'opportunité de vous connecter avec les entreprises du monde entier.
+                        Nous mettons à votre disposition un réseau d'entreprise dotés d'une solide expérience commerciale.
+                        Profitez de la meilleure qualité de service de plus de 200 services d'entreprises.
                     </p>
                   </div>
                   <div class="text-iconbox wow fadeInRight">
@@ -850,12 +851,9 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Reduce Hiring bias</a>
+                          <a href="#">Connectez-vous à des entreprises ayant une expérience commerciale approuvée.</a>
                         </h1>
-                        <p>
-                          Structured digital interviews increase the predictive
-                          validity of your hires by 65%.
-                        </p>
+
                       </div>
                     </div>
                     <!-- tf-iconbox -->
@@ -898,12 +896,9 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Save time & headspace</a>
+                          <a href="#">Entrer en contact avec les meilleurs entreprises pour votre service.</a>
                         </h1>
-                        <p>
-                          Reduce your time-to-hire by up to 75% and free up
-                          headspace for other HR priorities.
-                        </p>
+
                       </div>
                     </div>
                     <!-- tf-iconbox -->
@@ -956,90 +951,12 @@
                       </div>
                       <div class="box-content">
                         <h1 class="box-title">
-                          <a href="#">Minimize environmental impact</a>
+                          <a href="#">Accompagnement personnalisé.</a>
                         </h1>
-                        <p>
-                          Did you know? U.S. office workers use ~10,000 sheets of
-                          paper every year.
-                        </p>
+
                       </div>
                     </div>
-                    <!-- tf-iconbox -->
-                    <div class="tf-iconbox style-1">
-                      <div class="box-header">
-                        <div class="icon">
-                          <svg width="38" height="43" viewBox="0 0 38 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                              d="M18.7024 27.4841C20.2963 27.4841 21.5883 26.1988 21.5883 24.6132C21.5883 23.0276 20.2963 21.7422 18.7024 21.7422C17.1085 21.7422 15.8164 23.0276 15.8164 24.6132C15.8164 26.1988 17.1085 27.4841 18.7024 27.4841Z"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path d="M21.959 31.4189V41.0964" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M15.5098 41.0964V31.4189" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M7.77148 41.0964V31.4189" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                              d="M18.7358 27.5H17.2848C15.2856 27.5 12.9316 28.1936 12.9316 31.4194V36.2419C12.9316 37.2903 13.8023 38.1452 14.8664 38.1452H15.3501"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path
-                              d="M10.6907 27.4841C12.2845 27.4841 13.5766 26.1988 13.5766 24.6132C13.5766 23.0276 12.2845 21.7422 10.6907 21.7422C9.09679 21.7422 7.80469 23.0276 7.80469 24.6132C7.80469 26.1988 9.09679 27.4841 10.6907 27.4841Z"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path
-                              d="M10.9472 27.5H9.51231C7.52921 27.5 5.19141 28.1936 5.19141 31.4194V36.2419C5.19141 37.2903 6.04592 38.1452 7.11002 38.1452H7.5937"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path d="M29.6992 41.0964V31.4189" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                              d="M26.8118 27.4841C28.4056 27.4841 29.6977 26.1988 29.6977 24.6132C29.6977 23.0276 28.4056 21.7422 26.8118 21.7422C25.2179 21.7422 23.9258 23.0276 23.9258 24.6132C23.9258 26.1988 25.2179 27.4841 26.8118 27.4841Z"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path
-                              d="M26.5215 27.5H27.9564C29.9395 27.5 32.2773 28.1936 32.2773 31.4194V36.2419C32.2773 37.2903 31.4228 38.1452 30.3587 38.1452H29.875"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path
-                              d="M18.7344 27.5H20.1854C22.1846 27.5 24.5386 28.1936 24.5386 31.4194V36.2419C24.5386 37.2903 23.6679 38.1452 22.6038 38.1452H22.1202"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                            <path d="M18.7344 41.0962V38.1445" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M27.7642 10.7744L18.7355 19.1615L13.5762 15.2905" stroke="#148160" stroke-width="2"
-                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M18.7344 3.67773V4.96806" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M26.475 5.75781L25.8301 6.87072" stroke="#148160" stroke-width="2"
-                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M32.134 11.4189L31.0215 12.0641" stroke="#148160" stroke-width="2"
-                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M34.2136 19.1611H32.9238" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M3.25781 19.1611H4.54763" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M5.33789 11.4189L6.45037 12.0641" stroke="#148160" stroke-width="2"
-                              stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M10.9961 5.758L11.641 6.8709" stroke="#148160" stroke-width="2" stroke-miterlimit="10"
-                              stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                              d="M34.745 26.4677C35.8413 24.1612 36.4701 21.5805 36.4701 18.8386C36.4701 9.03216 28.5377 1.09668 18.735 1.09668C8.9324 1.09668 1 9.03216 1 18.8386C1 21.5644 1.61266 24.1451 2.72513 26.4677"
-                              stroke="#148160" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                              stroke-linejoin="round" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div class="box-content">
-                        <h1 class="box-title">
-                          <a href="#">Save money</a>
-                        </h1>
-                        <p>
-                          Interview more candidates, more quickly – and still save
-                          money.
-                        </p>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -1174,7 +1091,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="wd-review-job contentbox1 padding">
-                <h3>Get the job that's right for you</h3>
+                <h3>Trouvez une entreprise  pour mettre sur pied vos projets.</h3>
                 <p>
                   Search millions of jobs and get the inside scoop on companies
                   with employee reviews, personalized salary tools, and more.

@@ -24,26 +24,45 @@
                     <div class="nav-wrap">
                         <nav class="main-nav mobile">
                             <ul id="menu-primary-menu" class="menu">
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/">Accueil</a>
-                                </li>
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/about">A Propos</a>
-                                </li>
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/service">Trouver un service</a>
-                                </li>
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/contact">Contact</a>
-                                </li>
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/connexion">Se Connecter</a>
-                                </li>
-                                <li class="menu-item menu-item-mobile">
-                                    <a href="/inscription">S'inscrire</a>
-                                </li>
-                                
-                                
+                                @auth
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/">Accueil</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/about">A Propos</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/service">Trouver un service</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/contact">Contact</a>
+                                    </li>
+                                @endauth
+
+                                @guest
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/">Accueil</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/about">A Propos</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/service">Trouver un service</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/contact">Contact</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/connexion">Se Connecter</a>
+                                    </li>
+                                    <li class="menu-item menu-item-mobile">
+                                        <a href="/inscription">S'inscrire</a>
+                                    </li>
+                                @endguest
+
+
+
+
                             </ul>
                         </nav>
                     </div>
@@ -52,183 +71,34 @@
                 <div class="categories">
                     <div class="sub-categorie-mobile">
                         <ul class="pop-up">
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-1"></span>Design & Creative</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                                <li><a href="find-jobs-list.html">Development & IT</a></li>
-                                <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                                <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                <li><a href="jobs-single.html">adobe XD</a></li>
-                                <li><a href="jobs-single.html">Android Developer</a></li>
-                                <li><a href="jobs-single.html">Figma</a></li>
-                                <li><a href="jobs-single.html">CSS, Html</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-8"></span>Digital Marketing</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                <li><a href="find-jobs-list.html">Development & IT</a></li>
-                                <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">adobe XD</a></li>
-                                <li><a href="jobs-single.html">Figma</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-2"></span>Development & IT</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">Development & IT</a></li>
-                                <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                                <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">adobe XD</a></li>
-                                <li><a href="jobs-single.html">Android Developer</a></li>
-                                <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                <li><a href="jobs-single.html">CSS, Html</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-3"></span>Music & Audio</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">Android Developer</a></li>
-                                <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                <li><a href="jobs-single.html">adobe XD</a></li>
-                                <li><a href="jobs-single.html">Figma</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-4"></span>Finance &
-                            Accounting</a>
-                            <div class="group-menu-category-mobile">
-                                <div class="menu left">
-                                <ul>
-                                    <li><a href="find-jobs-list.html">Development & IT</a></li>
-                                    <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                    <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                    <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                                    <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                    <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
+                            @foreach ($categories as $categorie )
+                            <li>
+                                <a href="#"><span class="{{$categorie->icones}}"></span>{{$categorie->libelle}}</a>
+                                <div class="group-menu-category">
+                                    <div class="menu left">
+
+                                        <ul>
+                                            @foreach ($categorie->services as $service )
+                                                <li><a href="{{ route('EntrepriseService.show', ['slug' => $service->id]) }}">{{$service->libelle}}</a></li>
+                                            @endforeach
+
+
+                                        </ul>
+                                    </div>
+                                    {{-- <div class="menu right">
+                                        <h6>Top Skills</h6>
+                                        <ul>
+                                            <li><a href="jobs-single.html">Adobe Photoshop</a></li>
+                                            <li><a href="jobs-single.html">adobe XD</a></li>
+                                            <li><a href="jobs-single.html">Android Developer</a></li>
+                                            <li><a href="jobs-single.html">Figma</a></li>
+                                            <li><a href="jobs-single.html">CSS, Html</a></li>
+                                            <li><a href="jobs-single.html">BA</a></li>
+                                        </ul>
+                                    </div> --}}
                                 </div>
-                                <div class="menu right">
-                                <ul>
-                                    <li><a href="jobs-single.html">adobe XD</a></li>
-                                    <li><a href="jobs-single.html">Figma</a></li>
-                                </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-5"></span>Programming & Tech</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                                <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                                <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                <li><a href="jobs-single.html">adobe XD</a></li>
-                                <li><a href="jobs-single.html">Figma</a></li>
-                                <li><a href="jobs-single.html">CSS, Html</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-6"></span>Video & Animation</a>
-                            <div class="group-menu-category-mobile">
-                            <div class="menu left">
-                                <ul>
-                                <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                                <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                                <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
-                            </div>
-                            <div class="menu right">
-                                <ul>
-                                <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                <li><a href="jobs-single.html">CSS, Html</a></li>
-                                <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                            </div>
-                            </div>
-                        </li>
-                        <li class="categories-mobile">
-                            <a href="#"><span class="icon-categorie-7"></span>Writing &
-                            translation</a>
-                            <div class="group-menu-category-mobile">
-                                <div class="menu left">
-                                <ul>
-                                    <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                                    <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                                    <li><a href="find-jobs-list.html">video & Animation</a></li>
-                                </ul>
-                                </div>
-                                <div class="menu right">
-                                <ul>
-                                    <li><a href="jobs-single.html">Figma</a></li>
-                                    <li><a href="jobs-single.html">CSS, Html</a></li>
-                                    <li><a href="jobs-single.html">BA</a></li>
-                                </ul>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
+                        @endforeach
                         </ul>
                     </div>
 
@@ -240,7 +110,7 @@
 
 
 
-    
+
 
     <div class="mobile-footer">
         <div class="icon-infor d-flex aln-center">
@@ -248,17 +118,14 @@
             <span class="icon-call-calling"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
         </div>
         <div class="content">
-            <p>Need help? 24/7</p>
-            <h6><a href="tel:0123456678">001-1234-88888</a></h6>
+            <p>Besoin de nous ?</p>
+            <h6><a href="tel:0758265650">(+225) 0758265650</a></h6>
         </div>
     </div>
         <div class="wd-social d-flex aln-center">
         <ul class="list-social d-flex aln-center">
             <li><a href="#"><i class="icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
             <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-pinterest"></i></a></li>
-            <li><a href="#"><i class="icon-instagram1"></i></a></li>
             <li><a href="#"><i class="icon-youtube"></i></a></li>
         </ul>
     </div>

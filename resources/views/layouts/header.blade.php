@@ -35,7 +35,7 @@
 
                                     <ul>
                                         @foreach ($categorie->services as $service )
-                                            <li><a href="find-jobs-list.html">{{$service->libelle}}</a></li>
+                                            <li><a href="{{ route('EntrepriseService.show', ['slug' => $service->id]) }}">{{$service->libelle}}</a></li>
                                         @endforeach
 
 

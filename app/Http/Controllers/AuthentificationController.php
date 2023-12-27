@@ -107,6 +107,7 @@ class AuthentificationController extends Controller
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
             'email_verified_at' => now(),
+            
         ])->assignRole("compagny");
 
         // nouvelle entreprise
