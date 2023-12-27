@@ -30,29 +30,6 @@
                     @foreach ($categories as $categorie )
                         <li>
                             <a href="#"><span class="{{$categorie->icones}}"></span>{{$categorie->libelle}}</a>
-                            <div class="group-menu-category">
-                                <div class="menu left">
-
-                                    <ul>
-                                        @foreach ($categorie->services as $service )
-                                            <li><a href="{{ route('EntrepriseService.show', ['slug' => $service->id]) }}">{{$service->libelle}}</a></li>
-                                        @endforeach
-
-
-                                    </ul>
-                                </div>
-                                {{-- <div class="menu right">
-                                    <h6>Top Skills</h6>
-                                    <ul>
-                                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                                        <li><a href="jobs-single.html">adobe XD</a></li>
-                                        <li><a href="jobs-single.html">Android Developer</a></li>
-                                        <li><a href="jobs-single.html">Figma</a></li>
-                                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                                        <li><a href="jobs-single.html">BA</a></li>
-                                    </ul>
-                                </div> --}}
-                            </div>
                         </li>
                     @endforeach
 
