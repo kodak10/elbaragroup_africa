@@ -47,13 +47,11 @@ Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'ser
 
         Route::get('/mon_compte', [EntrepriseController::class, 'edit_account']);
         Route::post('/mon_compte', [EntrepriseController::class, 'update'])->name('update_profil');
+        Route::get('/message', [EntrepriseController::class, 'message']);
+        Route::get('/edit-password', [EntrepriseController::class, 'edit_password']);
 
-        Route::get('/message', function () {
-            return view('dashboard.entreprises.message');
-        });
-        Route::get('/edit-password', function () {
-            return view('dashboard.entreprises.edit-password');
-        });
+
+       
 
     });
 

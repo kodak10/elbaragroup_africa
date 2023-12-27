@@ -152,14 +152,16 @@ class EntrepriseController extends Controller
         return view('dashboard.entreprises.services.create', compact('service', 'categories'));
     }
 
-    public function create_service_store()
+    public function message()
     {
-
+        $categories = Departement::get();
+        return view('dashboard.entreprises.message', compact('categories'));
     }
 
-    public function create_service_edit()
+    public function edit_password()
     {
-
+        $categories = Departement::get();
+        return view('dashboard.entreprises.edit-password', compact('categories'));
     }
 
     public function create_service_update()
