@@ -192,13 +192,13 @@
                                     <div class="inner-box">
                                        <div class="col-lg-4">
                                             <div class="logo-company">
-                                                <img class="img-fluid w-100 zoomRotateImage" src="{{asset('{{$service->image}}')}}"
+                                                <img class="img-fluid w-100 zoomRotateImage" src="{{$service->image}}"
                                                     alt="image" />
                                             </div>
                                        </div>
                                         <div class="col-lg-8">
                                             <div class="box-content">
-                                                
+
                                                 <h3>
                                                     <a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}} </a>
                                                     <span class="icon-bolt"></span>
