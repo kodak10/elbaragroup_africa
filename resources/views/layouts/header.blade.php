@@ -50,9 +50,8 @@
                 @auth
 
                 <div class="header-customize-item account">
+                    <img src="{{asset('assets/images/user/avatar/image-01.jpg')}}" alt="" />
                     @if (auth()->user()->hasRole('client'))
-                    <img src="{{ asset('storage/assets/images/profil/' . Auth::user()->client->photo) }}" alt="" />
-
                         <div class="name">
                             {{Auth::user()->name}}<span class="icon-keyboard_arrow_down"></span>
                         </div>
@@ -79,7 +78,6 @@
                         </div>
 
                     @elseif(auth()->user()->hasRole('compagny'))
-                        <img src="{{ asset('storage/assets/images/profil/' . Auth::user()->compagny->photo) }}" alt="" />
                         <div class="name">
                             {{Auth::user()->name}}<span class="icon-keyboard_arrow_down"></span>
                         </div>
@@ -117,6 +115,81 @@
                     @endif
 
 
+
+
+                    {{-- <div class="sub-account-item">
+                        <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Menu Général</a>
+                      </div>
+                      <div class="sub-account-item">
+                        <a href="employer-profile.html"><span class="icon-profile"></span> Aperçu du compte</a>
+                      </div>
+                      <div class="sub-account-item">
+                        <a href="/mon_compte"><span class="icon-mypackage "></span> Parametrage du compte</a>
+                      </div>
+                      <div class="sub-account-item">
+                        <a href="/create-service"><span class="icon-submit"></span> Poster un service</a>
+                      </div>
+                      <div class="sub-account-item">
+                        <a href="employer-my-job.html"><span class="icon-work"></span> Mes Services</a>
+                      </div>
+
+                      <div class="sub-account-item">
+                        <a href="/message"><span class="icon-chat"></span> Messages</a>
+                      </div>
+
+                      <div class="sub-account-item">
+                        <a href="/edit-password"><span class="icon-change-passwords"></span> Modification de mot de passe
+                        </a>
+                      </div>
+
+                      <div class="sub-account-item">
+
+
+                        <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
+
+                            <span class="icon-log-out"></span> Se Déconnecter</a>
+                            <form id="logout-form" action="" method="POST" style="">
+                                @csrf
+                            </form>
+                      </div> --}}
+
+
+
+                    {{-- <div class="sub-account-item">
+                        <a href="dashboard/candidates-profile-setting.html"><span class="icon-profile"></span> Profile</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-resumes.html"><span class="icon-resumes"></span> Resumes</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-my-applied.html"><span class="icon-my-apply"></span> My Applied</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-save-jobs.html"><span class="icon-work"></span> Saved Jobs</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-alerts-jobs.html"><span class="icon-bell1"></span> Candidate Alerts</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-messages.html"><span class="icon-chat"></span> Messages</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-following-employers.html"><span class="icon-following"></span> Following Employers</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-meetings.html"><span class="icon-meeting"></span> Meeting</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-change-passwords.html"><span class="icon-change-passwords"></span> Change
+                        Passwords</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="dashboard/candidates-delete-profile.html"><span class="icon-trash"></span> Delete Profile</a>
+                    </div>
+                    <div class="sub-account-item">
+                        <a href="#"><span class="icon-log-out"></span> Log Out</a>
+                    </div>
+                    </div> --}}
                 </div>
                 @endauth
 
