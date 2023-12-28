@@ -179,7 +179,7 @@
         <div class="tf-title style-2">
             <div class="group-title ">
             <h1>Services en vedette</h1>
-            <p>Trouvez l'entreprise qui vous convient parfaitement. Environ 200+ services sur ElbaraGroup Africa </p>
+            <p>Trouvez l'entreprise qui vous convient parfaitement. Environ 200+ services sur Elbara Africa Group .</p>
             </div>
         </div>
         <div class="row wow fadeInUp">
