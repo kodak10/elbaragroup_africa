@@ -3,10 +3,10 @@
     <div class="widget-filter">
 
       <div class="mobile-header">
-        <div id="logo" class="logo">
-          <a href="/">
-            <img class="site-logo" src="../images/logo.png" alt="Image" />
-          </a>
+        <div >
+            <a href="/">
+            <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo.jpeg')}}" alt="Logo"/>
+            </a>
         </div>
         <a class="title-button-group"><i class="icon-close"></i></a>
 

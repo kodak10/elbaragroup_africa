@@ -37,7 +37,7 @@
   <link rel="apple-touch-icon-precomposed" href="{{asset('assets/images/favicon.png')}}">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  
+
 </head>
 
 <body class="dashboard show ">
@@ -66,7 +66,25 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="{{ asset('assets/javascript/jquery.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+    <script src="{{ asset('assets/javascript/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/javascript/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/javascript/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/javascript/main.js') }}"></script>
+    <script src="{{ asset('assets/javascript/countto.js') }}"></script>
+    <script src="{{ asset('assets/javascript/area-datetime.js') }}"></script>
+    <script src="{{ asset('assets/javascript/dropdown.js') }}"></script>
+    <script src="{{ asset('assets/javascript/dashboard-menu.min.js') }}"></script>
+    <script src="{{ asset('assets/javascript/dashboard-menu.js') }}"></script>
+    <script src="{{ asset('assets/javascript/password-addon.js') }}"></script>
+    <script src="{{ asset('assets/javascript/messages.js') }}"></script>
+
+
+
+  {{-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="{{asset('assets/javascript/jquery.min.js')}}"></script>
   <script src="{{asset('assets/javascript/jquery.cookie.js')}}"></script>
   <script src="{{asset('assets/javascript/swiper-bundle.min.js')}}"></script>
@@ -82,7 +100,7 @@
   <script src="{{asset('assets/javascript/dashboard-menu.js')}}"></script>
   <script src="{{asset('assets/javascript/password-addon.js')}}"></script>
 
-  <script src="{{asset('assets/javascript/messages.js')}}"></script>
+  <script src="{{asset('assets/javascript/messages.js')}}"></script> --}}
 
 
 

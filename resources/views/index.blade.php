@@ -56,7 +56,7 @@
               <div class="content wow fadeInUp ">
                 <div class="heading">
                   <h3 class="text-white">Trouvez l'entreprise qui correspond à vos besoins.</h3>
-                  <p class="text-white">Des millions de personnes utilisent ElbaraGroup Africa pour concrétiser leurs idées à travers une multitude d'entreprises qui proposent des services.</p>
+                  <p class="text-white">Des millions de personnes utilisent Elbara Africa Group pour concrétiser leurs idées à travers une multitude d'entreprises qui proposent des services.</p>
                 </div>
                 <div class="form-sl">
                   <form method="get" action="{{route('services.search')}}">
@@ -242,7 +242,7 @@
     <section class="wd-iconbox flat-row background1">
         <div class="tf-container">
         <div class="title-iconbox">
-            <h1>Que puis-je faire avec ElbaraGroup ?</h1>
+            <h1>Que puis-je faire sur Elbara Africa Group ?</h1>
             <p>Rationalisez votre processus de recherche afin atteindre des entreprises qualifiées pour vos projets.</p>
         </div>
         <div class="row">

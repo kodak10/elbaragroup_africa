@@ -4,10 +4,9 @@
             <div class="col-md-12">
                 <div class="sticky-area-wrap">
                     <div class="header-ct-left">
-                        <div id="logo" class="logo">
+                        <div >
                             <a href="/">
-                            <img class="site-logo" src="../images/logo.png" alt="Image" />
-
+                            <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo.jpeg')}}" alt="Logo"/>
                             </a>
                         </div>
                         <div class="categories">
@@ -16,7 +15,7 @@
                                 <ul class="pop-up">
                                     @foreach ($categories as $categorie )
                                         <li>
-                                            <a href="#"><span class="{{$categorie->icones}}"></span>{{$categorie->libelle}}</a>
+                                            <a class="text-uppercase" href="#"><span class="{{$categorie->icones}}"></span>{{$categorie->libelle}}</a>
                                         </li>
                                     @endforeach
 

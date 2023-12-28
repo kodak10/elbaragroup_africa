@@ -1,5 +1,11 @@
 @extends('dashboard.entreprises.layouts.app')
 @section('content')
+
+<style>
+    .dashboard .btn{
+        display: none;
+    }
+</style>
 <section class="page-title-dashboard">
     <div class="themes-container">
       <div class="row">
@@ -18,29 +24,31 @@
         <div class="themes-container">
 
             <div class="row">
-
-                <form action="" method="post">
-                    @csrf
-
-                    <div class="col-lg-6">
-                        <div class="form-group">
-                            <label class="form-label fw500 fz16 dark-color">Saisissez le
-                                Libell&eacute; du service (Coute phrase d'accroche)</label>
-                            <div class="bootselect-multiselect">
-                                <input required
-                                    type="text"name="libelle"class="form-control"placeholder="Saisissez le Libelle du service">
-                            </div>
-                        </div>
+                @if(session('success') === false)
+                    <div class="alert alert-danger">
+                        {{ session('message') }}
                     </div>
+                @endif
+
+                    @if(session('success') === true)
+                        <div class="alert alert-success">
+                            {{ session('message') }}
+                        </div>
+                @endif
+            </div>
+            <div class="row">
+
+                <form action="{{route('store_service')}}" method="post" enctype="multipart/form-data">
+                    @csrf
 
                     <div class="col-lg-6">
                         <div class="form-group">
                             <label class="form-label fw500 fz16 dark-color">Selectionnez le service</label>
                             <div class="bootselect-multiselect">
-                                {{-- <select class="selectpicker" name="service" data-live-search="true"
-                                    data-width="100%">
+                                <select class="selectpicker" name="service" data-live-search="true"
+                                    data-width="100%" class="p-3">
                                     <option>Selectionner ici...</option>
-                                    @forelse ($service as $val)
+                                    @forelse ($services as $val)
                                         <option
                                             value="{{ $val->id }}"data-tokens="{{ $val->libelle }}">
                                             {{ mb_strtoupper($val->libelle) }}</option>
@@ -48,16 +56,23 @@
                                         <option>Aucun secteur trouv&eacute;
                                         </option>
                                     @endforelse
-                                </select> --}}
+                                </select>
                             </div>
-                            {{-- <select class="form-select" aria-label="Default select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select> --}}
+
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label class="form-label fw500 fz16 dark-color">Saisissez le
+                                Libell&eacute; du service (Courte phrase d'accroche)</label>
+                            <div class="bootselect-multiselect">
+                                <input required
+                                    type="text"name="libelle"class="form-control"placeholder="Saisissez le Libelle du service">
+                            </div>
+                        </div>
+                    </div>
+
+
 
                     <div class="col-lg-6 col-xl-6">
                         <div class="form-group">
@@ -97,12 +112,13 @@
 
                             <div class="btn-wrap button-wrap flex2">
                                 <div class="tt-button button-browse">
-                                    <a href="#" class="btn-3">Importer des réalisations</a>
+
+                                    <input type="file" class="btn-3" name="images" accept="image/*">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button type="submit"class="">Valider</button>
+                    <button type="submit"class="btn-3">Valider</button>
 
 
                 </form>
@@ -115,4 +131,29 @@
         </div>
 
     </section>
+
+    <script>
+        $(document).ready(function() {
+            $('#imageForm').submit(function(e) {
+                e.preventDefault();
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        // Mettre à jour l'élément avec l'ID "imageContainer"
+                        $('#imageContainer').html('<img src="' + response.imagePath + '" alt="Imported Image">');
+                    },
+                    error: function(error) {
+                        console.log(error);
+                    }
+                });
+            });
+        });
+    </script>
 @endsection

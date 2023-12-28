@@ -8,803 +8,453 @@
         position: fixed !important;
     }
     .header{
-        position: fixed !important;
+        position: relative !important;
         margin-bottom: 3rem !important;
     }
 </style>
-<section class="inner-review-section">
-    <div class="tf-container">
-      <div class="row">
-        <div class="col-lg-7 col-md-12">
-          <div class="wd-review-job thumb2 widget-counter stc">
-            <div class="thumb">
-              <img src="images/review/thumb2.png" alt="images">
-            </div>
-            <div class="trader-box">
-              <div class="content">
-                <h3 class="number wrap-counter">
-                  <span class="number counter-number" data-speed="2000" data-to="25"></span><span>M+</span>
-                </h3>
-                <div class="des">Jobs Available</div>
-              </div>
-              <div class="shape ani7">
-                <img src="images/review/shape.png" alt="images">
-              </div>
-            </div>
-            <div class="tes-box ani5">
-              <div class="client-box">
-                <div class="avt">
-                  <img src="images/review/client.jpg" alt="images">
-                  <div class="badge"> </div>
-                </div>
-                <div class="content">
-                  <h6 class="number wrap-counter">
-                    <span class="number counter-number" data-speed="2000" data-to="480"></span><span>+</span>
-                  </h6>
-                  <div class="des">Happpy Candidates</div>
-                </div>
-              </div>
-            </div>
-            <div class="icon1 ani3">
-              <img src="images/review/icon1.png" alt="images">
-            </div>
-            <div class="icon2 ani4">
-              <img src="images/review/icon2.png" alt="images">
-            </div>
-            <div class="icon3 ani6">
-              <img src="images/review/icon3.png" alt="images">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-12 wow fadeInRight">
-          <div class="wd-review-job contentbox1 page-text stc">
-            <h3>About Us</h3>
-            <p>
-              Far much that one rank beheld bluebird after outside ignobly allegedly more
-              when oh arrogantly vehement irresistibly fussy penguin insect additionally wow absolutely
-              crud meretriciously hastily dalmatian a glowered inset one echidna cassowary.
-            </p>
-            <p>
-              Repeatedly dreamed alas opossum but dramatically despite expeditiously that jeepers loosely yikes
-               that as or eel underneath kept and slept compactly far purred sure abidingly up above fitting to strident
-               wiped set waywardly far the and pangolin horse approving paid chuckled cassowary oh above a much
-               opposite far much hypnotically more therefore wasp less that hey apart well like while superbly orca and far hence one.
 
-            </p>
-            <a href="#" class="tf-button style-1">Read more</a>
+<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+
+
+<div class="body_content">
+    <!-- Breadcumb Sections -->
+    <section class="breadcumb-section mt40 mt-5">
+      <div class="cta-about-v1 mx-auto maxw1700 pt120 pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="position-relative">
+                <h2 class="text-white">A propos</h2>
+                <span><a class="text-white" href="/">Elbaragroup -></a>A Propos</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End wd-review job -->
-  <!-- counter -->
-  <section class="wd-banner-counter">
-    <div class="tf-container st3">
-      <div class="row">
-        <div class="col-lg-12">
+    </section>
 
-            <div class="group-title-counter stc">
-              <h3>The numbers don't lie</h3>
-              <p>About 800+ new jobs everyday</p>
+    <section class="pb30">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
+              <div class="main-title text-center">
+                <h2 class="title">Qui sommes-nous ?</h2>
+                {{-- <p class="paragraph mt10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum, in optio, architecto quis ex cumque explicabo neque reprehenderit quaerat ab placeat deserunt ipsa mollitia officia eos incidunt vel! Inventore!</p> --}}
+              </div>
             </div>
-            <div class="group-counter wow fadeInUp">
-              <div class="row align-item-center">
+          </div>
+          <div class="row wow fadeInUp" data-wow-delay="300ms">
+            <div class="col-lg-10 mx-auto">
+              <div class="ui-content">
+                <div class="accordion-style1 faq-page">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item active">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><strong>Principes et Missions</strong></button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>E-BAG</strong> est une Corporation novatrice et dynamique basée en Côte d'Ivoire .dont la vision principale se présente comme étant un partenaire d’accompagnement des entreprises dans divers secteurs d’activité.
+                            En resumé E-BAG est une plateforme autour de laquelle gravite <strong>Offre et Demande</strong>; une corporation englobant plusieurs secteurs d'activité.
 
-                  <div class="col-lg-3 col-md-6">
-                      <div class="wd-counter widget-counter">
-                        <div class="inner wrap-counter">
-                          <h2><span class="counter-number" data-speed="2000" data-to="25"></span><span>M+</span></h2>
+                            <strong>E-BAG</strong> l'une des actions serait d'apporter son expertise auprès des entreprises et particuliers en Afrique afin de maximiser leur rendement ( Indice de performance) .
+
+                            Pour les Entrepreneurs africains, la corporation vise à apporter sa pierre à cette édifice qui contribue au développement du continent africain pour un mieux être de sa population.
+                            Car nous porterons écoute et assistante...
+
+                            Elle vise à révolutionner les différentes prestations d'entreprises afin de les rendre plus adaptées au besoin des populations...
+
+                         {{--  Nous sommes <strong>ELBARA-AFRICA GROUP</strong> en abrégé <strong>E-BAG.</strong><br>
+                          E-BAG est une corporation novatrice et dynamique basée en Côte d'Ivoire,
+                          dont la mission principale est une vision de partenariat à savoir:
+                          <ul>
+                            <li><i class="fa-solid fa-angle-right"></i> L'accompagnement des entreprises dans divers secteurs d'activité pour l’atteinte de leur objectif;</li>
+                            <li><i class="fa-solid fa-angle-right"></i> Apporte son expertise auprès des entreprises et particulier en Afrique afin de maximiser leur rendement.</li>
+                          </ul> --}}
+
                         </div>
-                        <p class="description">Jobs Available</p>
                       </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                      <div class="wd-counter widget-counter">
-                        <div class="inner wrap-counter">
-                          <h2><span class="counter-number" data-speed="2000" data-to="177"></span><span>k+</span></h2>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>Notre Vision</strong></button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="accordion-body" style="size: 18px; line-height:2.0">
+                            Notre vision est de devenir le partenaire privilégié des principaux secteurs d’activité dont dispose le monde.
+                            En proposant des solutions avant-gardiste qui répondent aux besoins constamment changeant de nos collaborateurs.
+                            Nous aspirons à être reconnus pour notre engagement indéfectible envers l'excellence, l'innovation et la satisfaction de nos partenaires.
                         </div>
-                          <p class="description">New Jobs This Week!</p>
                       </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                    <div class="wd-counter widget-counter">
-                        <div class="inner wrap-counter">
-                          <h2><span class="counter-number" data-speed="2000" data-to="298"></span><span>k+</span></h2>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>Nos Départements</strong></button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nous déployons une gamme diversifiée de prestation aupres de nos partenaires ,
+                            englobant une expertise a la fois intérieur et extérieur, des outils adaptés selon le
+                            secteur d’activité et selon le besoin; visant à améliorer la sécurité et le confort de conduite.
+                            <img src="{{asset('assets/images/departement.jpg')}}" class="img-fluid w-100" alt="image">
                         </div>
-                          <p class="description">Companies Hiring</p>
+                      </div>
+                    </div>
+
+                    {{-- <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><strong>Notre structuration au niveau national</strong></button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                          <div class="accordion-body">
+
+                          </div>
+                        </div>
+                    </div> --}}
+
+                    {{-- <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><strong>Notre structuration au niveau international</strong></button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                          <div class="accordion-body">
+
+                          </div>
+                        </div>
+                    </div> --}}
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFor">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor"><strong>Nos Avantages</strong></button>
+                        </h2>
+                        <div id="collapseFor" class="accordion-collapse collapse" aria-labelledby="headingFor" data-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <ul>
+                                <li><i class="fa-solid fa-angle-right"></i> Être prioritaire en cas d'appel d'offre.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Beneficie d'une réduction pour tous les produits et services en tant que membre.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> L'aide à l'atteinte de vos objectifs.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> La communication</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Une carte passe-partout de membre.</li>
+                                <li><i class="fa-solid fa-angle-right"></i> Une assistance 24h/24</li>
+
+
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <!-- About Section Area -->
+    <section class="our-about pb0 pt60-lg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-xl-6">
+            <div class="about-img mb30-sm wow fadeInRight" data-wow-delay="300ms">
+              <img class="w100" src="{{asset('assets/images/about/about-1.jpg')}}" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-5 offset-xl-1">
+            <div class="position-relative wow fadeInLeft" data-wow-delay="300ms">
+              <h2 class="mb25">Rejoignez notre plateforme de mise en relation client-entreprise grâce à nos services de premier ordre.</h2>
+
+              <p class="text mb25">Vous avez désormais l'opportunité de vous connecter avec les entreprises du monde entier.
+                Nous mettons à votre disposition un réseau d'entreprise dotés d'une solide expérience commerciale.
+                Profitez de la meilleure qualité de service de plus de 200 services d'entreprises.</p>
+              <div class="list-style2">
+                <ul class="mb20">
+                  <li><i class="far fa-check"></i>Connectez-vous à des entreprises ayant une expérience commerciale approuvée.</li>
+                  <li><i class="far fa-check"></i>Entrer en contact avec les meilleurs entreprises pour votre service.</li>
+                  <li><i class="far fa-check"></i>Accompagnement personnalisé.</li>
+                </ul>
+              </div>
+              <a href="/services" class="ud-btn btn-thm-border">Trouver votre service<i class="fal fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Funfact -->
+    <section class="pb0 pt60">
+      <div class="container maxw1600 bdrb1 pb60">
+        <div class="row justify-content-center wow fadeInUp" data-wow-delay="300ms">
+          <div class="col-6 col-md-3">
+            <div class="funfact_one text-center">
+              <div class="details">
+                <ul class="ps-0 mb-0 d-flex justify-content-center">
+                  <li><div class="timer">+ 234</div></li>
+                  {{-- <li><span>M</span></li> --}}
+                </ul>
+                <p class="text mb-0">Entreprises enregistrés</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="funfact_one text-center">
+              <div class="details">
+                <ul class="ps-0 mb-0 d-flex justify-content-center">
+                  <li><div class="timer">+ 02</div></li>
+                  <li><span>M</span></li>
+                </ul>
+                <p class="text mb-0">Avis positifs</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="funfact_one text-center">
+              <div class="details">
+                <ul class="ps-0 mb-0 d-flex justify-content-center">
+                  <li><div class="timer">+ 03</div></li>
+                  <li><span>M</span></li>
+                </ul>
+                <p class="text mb-0">Clients inscrits</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="funfact_one text-center">
+              <div class="details">
+                <ul class="ps-0 mb-0 d-flex justify-content-center">
+                  <li><div class="timer">+ 16</div></li>
+                  <li><span>M</span></li>
+                </ul>
+                <p class="text mb-0">Projets terminés</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="p-0">
+      <div class="cta-banner mx-auto maxw1600 pt120 pt60-lg pb90 pb60-lg position-relative overflow-hidden mx20-lg">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-xl-5 pl30-md pl15-xs wow fadeInRight" data-wow-delay="500ms">
+              <div class="mb30">
+                <div class="main-title">
+                  <h2 class="title">De nombreuses entreprises à <br class="d-none d-lg-block"> portée de doigts</h2>
+                </div>
+              </div>
+              <div class="why-chose-list">
+                <div class="list-one d-flex align-items-start mb30">
+                  <span class="list-icon flex-shrink-0 flaticon-badge"></span>
+                  <div class="list-content flex-grow-1 ml20">
+                    <h4 class="mb-1">Preuve de qualité</h4>
+                    <p class="text mb-0 fz15">Examinez les échantillons de travail des entreprises, consultez les avis de nos clients et bénéficiez de notre procédure de vérification d'identité.</p>
+                  </div>
+                </div>
+                <div class="list-one d-flex align-items-start mb30">
+                  <span class="list-icon flex-shrink-0 flaticon-money"></span>
+                  <div class="list-content flex-grow-1 ml20">
+                    <h4 class="mb-1">Zéro frais avant satisfaction</h4>
+                    <p class="text mb-0 fz15">Conversez avec les entreprises potentiels pour votre projet, négociez les tarifs, et ne rémunérez que lorsque le travail est approuvé par vos soins.</p>
+                  </div>
+                </div>
+                <div class="list-one d-flex align-items-start mb30">
+                  <span class="list-icon flex-shrink-0 flaticon-security"></span>
+                  <div class="list-content flex-grow-1 ml20">
+                    <h4 class="mb-1">Sûr et sécurisé</h4>
+                    <p class="text mb-0 fz15">Concentrez-vous sur votre travail en sachant que nous aidons à protéger vos données et votre vie privée. Nous sommes là avec une assistance 24h/24 et 7j/7 si vous en avez besoin.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="500ms">
+              <div class="about-img"><img class="w100" src="{{asset('assets/images/about/about-6.jpg')}}" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Funfact -->
+    <section class="bgc-light-yellow pb90 pb30-md overflow-hidden maxw1700 mx-auto bdrs4">
+        <img class="left-top-img wow zoomIn d-none d-lg-block" src="{{asset('assets/images/vector-img/left-top.png')}}" alt="">
+        <img class="right-bottom-img wow zoomIn d-none d-lg-block" src="{{asset('assets/images/vector-img/right-bottom.png')}}" alt="">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-xl-4 offset-xl-1 wow fadeInRight" data-wow-delay="100ms">
+              <div class="cta-style6 mb30-sm">
+                <h2 class="cta-title mb25">Trouvez les entreprises nécessaires pour <br class="d-none d-lg-block">faire croître votre activité.</h2>
+                <p class="text-thm2 fz15 mb25">Des entreprises de qualité qui sont <br class="d-none d-md-block"> en adequation avec votre vision.</p>
+                <a href="#" class="ud-btn btn-thm">Commencer <i class="fal fa-arrow-right-long"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">
+              <div class="row align-items-center">
+                <div class="col-sm-6">
+                  <div class="funfact-style1 bdrs16 text-center ms-md-auto">
+                    <ul class="ps-0 mb-0 d-flex justify-content-center">
+                      <li><div class="timer title mb15">4</div></li>
+                      <li><span>.9/5</span></li>
+                    </ul>
+                    <p class="fz15 dark-color">Les clients évaluent  <br>les entreprises sur Elbaragroup</p>
+                  </div>
+                  <div class="funfact-style1 bdrs16 text-center ms-md-auto">
+                    <ul class="ps-0 mb-0 d-flex justify-content-center">
+                      <li><div class="timer title mb15">96</div></li>
+                      <li><span>%</span></li>
+                    </ul>
+                    <p class="fz15 dark-color">95% des clients sont satisfaits des services des <br>entreprises</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="funfact-style1 bdrs16 text-center">
+                    <ul class="ps-0 mb-0 d-flex justify-content-center">
+                      <li><div class="title mb15"></div></li>
+                    </ul>
+                    <p class="fz15 dark-color"> <br></p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+     <!-- Our Testimonials -->
+     <section class="our-testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mx-auto wow fadeInUp" data-wow-delay="300ms">
+              <div class="main-title text-center">
+                <h2>Témoignages</h2>
+                <p class="paragraph"> Découvrez ce qu'une multitude ont écrit jusqu'ici, et partagez votre propre expérience..</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 m-auto wow fadeInUp" data-wow-delay="500ms">
+              <div class="testimonial-style2">
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade" id="pills-1st" role="tabpanel" aria-labelledby="pills-1st-tab">
+                    <div class="testi-content text-md-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Travailler avec Kodak a été une expérience incroyable ! Sa créativité, son professionnalisme et sa réactivité ont été inestimables pour mon projet. Je suis extrêmement satisfait des résultats obtenus et je le recommande vivement. Un grand merci . "</h4>
+                      <h6 class="name">Donald merise</h6>
+                      <p class="design">Product Manager, Apple Inc</p>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6">
-                      <div class="wd-counter widget-counter br-none">
-                        <div class="inner wrap-counter">
-                          <h2><span class="counter-number" data-speed="2000" data-to="5"></span><span>M+</span></h2>
-                        </div>
-                          <p class="description">Candidates</p>
-                      </div>
+                  <div class="tab-pane fade show active" id="pills-2nd" role="tabpanel" aria-labelledby="pills-2nd-tab">
+                    <div class="testi-content text-md-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Angislad est un vrai professionnel ! Il a su capturer l'essence de mon projet et l'a transformé en quelque chose d'extraordinaire. Son expertise et son dévouement ont été essentiels pour atteindre mes objectifs. Je suis ravi du résultat et je le recommande sans hésitation. Merci pour un travail exceptionnel . "</h4>
+                      <h6 class="name">Valish Trick</h6>
+                      <p class="design">Product Manager, Apple Inc</p>
+                    </div>
                   </div>
-
-              </div>
-              <img class="thumb ani4" src="images/partners/thum-1.png" alt="images">
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <!-- wd-icon-box style3 -->
-  <section class="wd-iconbox style-3 inner-iconbox-section">
-
-    <div class="tf-container">
-      <div class="title-iconbox style-3 stc">
-        <h4>How it work?</h4>
-        <p>Pellentesque quis lectus sagittis, gravida erat id, placerat tellus.</p>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="group-col-3">
-            <div class="tf-iconbox style-3 cl3 stc2">
-              <div class="box-header">
-                <div class="img1">
-                  <img src="images/job/work-icon-1.jpg" alt="">
+                  <div class="tab-pane fade" id="pills-3rd" role="tabpanel" aria-labelledby="pills-3rd-tab">
+                    <div class="testi-content text-md-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Je tiens à exprimer ma profonde gratitude envers Skyson pour son travail remarquable. Il a su faire preuve d'une grande compétence et d'une réelle passion pour mon projet. Les délais ont été respectés et le résultat final a dépassé toutes mes attentes. Je recommande vivement Harden à quiconque cherche un professionnel talentueux et fiable. Un grand merci pour cette collaboration fructueuse . "</h4>
+                      <h6 class="name"> Drew clack</h6>
+                      <p class="design">Product Manager, Apple Inc</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-4th" role="tabpanel" aria-labelledby="pills-4th-tab">
+                    <div class="testi-content text-md-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Wow ! Walker a été absolument fantastique ! Sa créativité, son expertise et son professionnalisme ont été la clé du succès de mon projet. Il a su comprendre mes besoins dès le départ et a livré un travail d'une qualité exceptionnelle. Je suis enchanté du résultat et je ne peux que le recommander chaudement. Merci Walker pour cette expérience incroyable . "</h4>
+                      <h6 class="name">Brandom fish</h6>
+                      <p class="design">Product Manager, Apple Inc</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-5th" role="tabpanel" aria-labelledby="pills-5th-tab">
+                    <div class="testi-content text-md-center">
+                      <span class="icon fas fa-quote-left"></span>
+                      <h4 class="testi-text">"Je suis comblé par le travail de Maurane ! Son talent et son engagement ont rendu mon projet non seulement possible, mais également exceptionnel. Sa communication fluide et sa disponibilité ont été très appréciées tout au long du processus. Je suis enchanté des résultats obtenus et je recommande vivement Maurane à quiconque cherche un expert compétent et dévoué. Un grand merci pour cette collaboration fructueuse. "</h4>
+                      <h6 class="name">Alex Fresh</h6>
+                      <p class="design">Product Manager, Apple Inc</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="box-content">
-                <h6 class="box-title">
-                  <a href="blog-detail.html">Free resume assessments</a>
-                </h6>
-                <p>Aenean porta, eros lacus congue lorem, sit amet mollis magna velit ac erat Morbi accumsan purus nec
-                  vehicula ornare. Nam quis tincidunt nulla.</p>
-                <button>
-                  Start Now&nbsp;
-                  <span class="icon-arrow-right2"></span>
-                </button>
-              </div>
-            </div>
-            <div class="tf-iconbox style-3 cl3 stc2">
-              <div class="box-header">
-                <div class="img1">
-                  <img src="images/job/work-icon-2.jpg" alt="">
+                <div class="tab-list position-relative">
+                  <ul class="nav nav-pills justify-content-md-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link ps-0" id="pills-1st-tab" data-bs-toggle="pill" data-bs-target="#pills-1st" type="button" role="tab" aria-controls="pills-1st" aria-selected="true"><img src="{{asset('assets/images/testimonials/testi-1.png')}}" alt=""></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-2nd-tab" data-bs-toggle="pill" data-bs-target="#pills-2nd" type="button" role="tab" aria-controls="pills-2nd" aria-selected="false"><img src="{{asset('assets/images/testimonials/testi-2.png')}}" alt=""></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-3rd-tab" data-bs-toggle="pill" data-bs-target="#pills-3rd" type="button" role="tab" aria-controls="pills-3rd" aria-selected="false"><img src="{{asset('assets/images/testimonials/testi-3.png')}}" alt=""></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-4th-tab" data-bs-toggle="pill" data-bs-target="#pills-4th" type="button" role="tab" aria-controls="pills-4th" aria-selected="false"><img src="{{asset('assets/images/testimonials/testi-4.png')}}" alt=""></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link pe-0" id="pills-5th-tab" data-bs-toggle="pill" data-bs-target="#pills-5th" type="button" role="tab" aria-controls="pills-5th" aria-selected="false"><img src="{{asset('assets/images/testimonials/testi-5.png')}}" alt=""></button>
+                    </li>
+                  </ul>
                 </div>
-              </div>
-              <div class="box-content">
-                <h6 class="box-title">
-                  <a href="blog-detail.html">Job fit scoring</a>
-                </h6>
-                <p>Aenean porta, eros lacus congue lorem, sit amet mollis magna velit ac erat Morbi accumsan purus nec
-                  vehicula ornare. Nam quis tincidunt nulla.</p>
-                <button>
-                  Start Now&nbsp;
-                  <span class="icon-arrow-right2"></span>
-                </button>
-              </div>
-            </div>
-            <div class="tf-iconbox style-3 cl3 stc2">
-              <div class="box-header">
-                <div class="img1">
-                  <img src="images/job/work-icon-3.jpg" alt="">
-                </div>
-              </div>
-              <div class="box-content ">
-                <h6 class="box-title">
-                  <a href="blog-detail.html">Help every step of the way</a>
-                </h6>
-                <p>Aenean porta, eros lacus congue lorem, sit amet mollis magna velit ac erat Morbi accumsan purus nec
-                  vehicula ornare. Nam quis tincidunt nulla.</p>
-                <button>
-                  Start Now&nbsp;
-                  <span class="icon-arrow-right2"></span>
-                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    </section>
 
-  </section>
-    <!-- wd-review-job -->
-  <section class="tf-tab inner-review-section-two">
-
-    <div class="tf-container">
-
-    <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="wd-review-job thumb1 widget-counter">
-              <div class="thumb">
-                <img src="images/review/thumb-review.png" alt="images">
-                <div class="trader-box box1 ani4">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M8.82861 17.9669L10.8172 11.6126L17.1715 9.62402L15.1829 15.9783L8.82861 17.9669Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <circle cx="13" cy="13.7949" r="12" stroke="#14A077" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number wrap-counter">
-                      <span class="number counter-number" data-speed="2000" data-to="198"></span><span>+</span>
-                    </h6>
-                    <div class="des">Countries</div>
-                  </div>
-                </div>
-                <div class="trader-box box2 ani5">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path
-                        d="M22.6673 10.4618C22.3412 8.11547 21.2527 5.94139 19.5695 4.27451C17.8863 2.60762 15.7017 1.54041 13.3522 1.23725C11.0028 0.934097 8.61881 1.41182 6.56759 2.59684M1.33398 2.46185V7.79518H6.66732"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M1.33398 13.1289C1.66006 15.4753 2.74856 17.6494 4.4318 19.3162C6.11504 20.9831 8.29964 22.0503 10.6491 22.3535C12.9985 22.6567 15.3825 22.1789 17.4337 20.9939M22.6673 21.1289V15.7956H17.334"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number wrap-counter">
-                      <span class="number counter-number" data-speed="2000" data-to="350"></span><span>k</span>
-                    </h6>
-                    <div class="des">Job Search Success</div>
-                  </div>
-                </div>
-                <div class="trader-box box3 ani4">
-                  <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M9.52382 15.5352C5.03915 15.5352 1.20898 16.213 1.20898 18.929C1.20898 21.6438 5.01465 22.3473 9.52382 22.3473C14.0085 22.3473 17.8387 21.6683 17.8387 18.9535C17.8387 16.2387 14.033 15.5352 9.52382 15.5352Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M9.52465 11.6616C12.4833 11.6616 14.854 9.28976 14.854 6.33226C14.854 3.3736 12.4833 1.00293 9.52465 1.00293C6.56715 1.00293 4.19531 3.3736 4.19531 6.33226C4.19531 9.28976 6.56715 11.6616 9.52465 11.6616Z"
-                        stroke="#14A077" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      <path d="M20.4056 7.9082V12.5865" stroke="#3772FF" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                      <path d="M22.7912 10.2474H18.0195" stroke="#3772FF" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                    </svg>
-                  </div>
-                  <div class="content">
-                    <h6 class="number">
-                      1 million+
-                    </h6>
-                    <div class="des">Candidates</div>
-                  </div>
-                </div>
-                <div class="group-tab menu-tab">
-                  <div class="user-tag tag1">
-                    <img src="images/review/user1.jpg" alt="images">
-                  </div>
-                  <div class="user-tag tag2">
-                    <img src="images/review/user2.jpg" alt="images">
-                  </div>
-                  <div class="user-tag tag3">
-                    <img src="images/review/user3.jpg" alt="images">
-                  </div>
-                  <div class="user-tag tag4 active">
-                    <img src="images/review/user4.jpg" alt="images">
-                  </div>
-                  <div class="user-tagg tag5 ani2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                      <g clip-path="url(#clip0_5631_259134)">
-                        <circle cx="19.9964" cy="20.7069" r="15.0028" transform="rotate(-23.3151 19.9964 20.7069)"
-                          fill="white" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M25.9343 34.4846C18.3247 37.7642 9.49824 34.2544 6.21866 26.6448C2.93909 19.0352 6.44886 10.2088 14.0584 6.92922C21.668 3.64965 30.4945 7.15942 33.774 14.769C37.0536 22.3786 33.5438 31.205 25.9343 34.4846ZM26.764 21.0106C25.8277 18.838 23.9418 18.1958 20.4373 18.7995L18.7895 14.9761C19.858 14.7546 20.9797 14.7725 22.1847 15.0404L22.5399 12.6451C21.0234 12.2976 19.4422 12.3538 17.9542 12.8081L17.4339 11.6008L15.6169 12.3838L16.1198 13.5506C13.5958 14.8774 12.4627 17.1311 13.399 19.3037C14.3788 21.577 16.2756 22.0715 19.6544 21.5221L21.3541 25.4659C19.9093 25.8497 18.522 25.7318 16.9321 25.3194L16.3847 27.7261C18.2898 28.2108 20.2913 28.1653 22.1724 27.5944L23.0393 29.606L24.8563 28.8229L23.9979 26.8312C26.5547 25.4668 27.7178 23.2236 26.764 21.0106ZM18.6044 19.0881C16.7974 19.3186 16.1671 18.9459 15.8027 18.1003C15.4215 17.2159 15.8068 16.2147 17.0792 15.5469L18.6044 19.0881ZM24.3601 22.2131C24.7764 23.1792 24.3108 24.1671 23.0385 24.8349L21.469 21.1933C23.2979 20.9544 23.97 21.308 24.3604 22.2139L24.3601 22.2131Z"
-                          fill="#1E68F6" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_5631_259134">
-                          <rect width="30.0056" height="30.0056" fill="white"
-                            transform="translate(0.280762 12.8671) rotate(-23.3151)" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 content-tab">
-            <div class="wd-review-job contentbox1 stc3">
-              <h3>Get the job that's right for you</h3>
-              <p>Search millions of jobs and get the inside scoop on companies with employee reviews, personalized salary
-                tools, and more.</p>
-              <ul class="wd-list-icon wow fadeInRight">
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Access to millions of job seekers</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Only pay for the candidates you want to contact</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Post unlimited jobs for free—all from one place</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Premium job placement on SimplyHired, Indeed, & over 100 job sites</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Hiring solutions & pricing that works with seasonal hiring changes</li>
-              </ul>
-            </div>
-            <div class="wd-review-job contentbox1">
-              <h3>Get the job that's right for you</h3>
-              <p>Search millions of jobs and get the inside scoop on companies with employee reviews, personalized salary
-                tools, and more.</p>
-              <ul class="wd-list-icon">
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Access to millions of job seekers</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Only pay for the candidates you want to contact</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Post unlimited jobs for free—all from one place</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Premium job placement on SimplyHired, Indeed, & over 100 job sites</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Hiring solutions & pricing that works with seasonal hiring changes</li>
-              </ul>
-            </div>
-            <div class="wd-review-job contentbox1">
-              <h3>Get the job that's right for you</h3>
-              <p>Search millions of jobs and get the inside scoop on companies with employee reviews, personalized salary
-                tools, and more.</p>
-              <ul class="wd-list-icon">
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Access to millions of job seekers</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Only pay for the candidates you want to contact</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Post unlimited jobs for free—all from one place</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Premium job placement on SimplyHired, Indeed, & over 100 job sites</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Hiring solutions & pricing that works with seasonal hiring changes</li>
-              </ul>
-            </div>
-            <div class="wd-review-job contentbox1">
-              <h3>Get the job that's right for you</h3>
-              <p>Search millions of jobs and get the inside scoop on companies with employee reviews, personalized salary
-                tools, and more.</p>
-              <ul class="wd-list-icon">
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Access to millions of job seekers</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Only pay for the candidates you want to contact</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Post unlimited jobs for free—all from one place</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Premium job placement on SimplyHired, Indeed, & over 100 job sites</li>
-                <li><span class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.79492C0 13.2061 3.5888 16.7949 8 16.7949C12.4112 16.7949 16 13.2061 16 8.79492C16 4.38372 12.4112 0.794922 8 0.794922C3.5888 0.794922 0 4.38372 0 8.79492ZM12.1657 7.36061C12.4781 7.04819 12.4781 6.54166 12.1657 6.22924C11.8533 5.91682 11.3467 5.91682 11.0343 6.22924L7.2 10.0636L5.36569 8.22924C5.05327 7.91682 4.54673 7.91682 4.23431 8.22924C3.9219 8.54166 3.9219 9.04819 4.23431 9.36061L6.63432 11.7606C6.94673 12.073 7.45327 12.073 7.76569 11.7606L12.1657 7.36061Z"
-                        fill="#14A077" />
-                    </svg>
-                  </span>Hiring solutions & pricing that works with seasonal hiring changes</li>
-              </ul>
-            </div>
-          </div>
-    </div>
-
-    </div>
-
-  </section>
-    <!-- End wd-review-job -->
-  <!-- WD-testimonials -->
-  <section class="inner-testimonials-section">
-    <div class="wrap-testimonials over-flow-hidden stc">
-      <div class="tf-container">
+    <!-- CTA Banner -->
+    <section class="cta-banner-about2 mx-auto maxw1700 position-relative mx20-lg pt60-lg pb60-lg">
+      <img class="cta-about2-img d-none d-xl-block" src="{{asset('assets/images/about/about-7.png')}}" alt="">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="tf-title style-2">
-              <div class="group-title">
-                <h1>What our clients are saying</h1>
-                <p>Showing companies based on reviews and recent job openings</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-12 wow fadeInUp">
-            <div class="swiper-container tes-slider stc">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="wd-testimonials">
-                    <p class="description">“Jobtex is allowing us to go through a large number of candidates with
-                      internal limited resources. We are able to do a first screening of candidates so much easier than
-                      if we had to meet everyone. We can truly identify and assess a talent pool more efficiently and
-                      have our talent ready to start in their new role faster.”</p>
-                    <div class="author-group">
-                      <div class="avatar">
-                        <img src="images/review/testimonials.jpg" alt="images">
-                      </div>
-                      <div class="infor">
-                        <h6>Pete Jones</h6>
-                        <div class="position">Head of Marketing Build</div>
-                        <ul class="rating">
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
-                              viewBox="0 0 13 14" fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="wd-testimonials">
-                    <p class="description">“Jobtex is allowing us to go through a large number of candidates with
-                      internal limited resources. We are able to do a first screening of candidates so much easier than
-                      if we had to meet everyone. We can truly identify and assess a talent pool more efficiently and
-                      have our talent ready to start in their new role faster.”</p>
-                    <div class="author-group">
-                      <div class="avatar">
-                        <img src="images/review/testimonials.jpg" alt="images">
-                      </div>
-                      <div class="infor">
-                        <h6>Pete Jones</h6>
-                        <div class="position">Head of Marketing Build</div>
-                        <ul class="rating">
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
-                              viewBox="0 0 13 14" fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="wd-testimonials">
-                    <p class="description">“Jobtex is allowing us to go through a large number of candidates with
-                      internal limited resources. We are able to do a first screening of candidates so much easier than
-                      if we had to meet everyone. We can truly identify and assess a talent pool more efficiently and
-                      have our talent ready to start in their new role faster.”</p>
-                    <div class="author-group">
-                      <div class="avatar">
-                        <img src="images/review/testimonials.jpg" alt="images">
-                      </div>
-                      <div class="infor">
-                        <h6>Pete Jones</h6>
-                        <div class="position">Head of Marketing Build</div>
-                        <ul class="rating">
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
-                              viewBox="0 0 13 14" fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="wd-testimonials">
-                    <p class="description">“Jobtex is allowing us to go through a large number of candidates with
-                      internal limited resources. We are able to do a first screening of candidates so much easier than
-                      if we had to meet everyone. We can truly identify and assess a talent pool more efficiently and
-                      have our talent ready to start in their new role faster.”</p>
-                    <div class="author-group">
-                      <div class="avatar">
-                        <img src="images/review/testimonials.jpg" alt="images">
-                      </div>
-                      <div class="infor">
-                        <h6>Pete Jones</h6>
-                        <div class="position">Head of Marketing Build</div>
-                        <ul class="rating">
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
-                              fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                          <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
-                              viewBox="0 0 13 14" fill="none">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
-                                fill="#FFB321" />
-                            </svg></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination tes-bullet"></div>
+          <div class="col-md-11 wow fadeInUp" data-wow-delay="200ms">
+            <div class="main-title">
+              <h2 class="title text-capitalize">Besoin de faire quelque chose?</h2>
+              <p class="text">Vous êtes à la recherche d'une entreprise pour réaliser vos projets ?</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!--End testimonials -->
+        <div class="row wow fadeInDown" data-wow-delay="400ms">
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
+              <span class="icon fz40 flaticon-cv"></span>
 
-  <!-- wd-partner -->
-  <section>
-    <div class="wd-partner style-1">
-      <div class="tf-container">
-        <h1 class="title-partner">
-          Used by 10.000+ companies around the world
-        </h1>
-        <div class="swiper partner-type-7">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a class="logo-partner" href="#">
-                <img src="images/partners/page-logo-1.png" alt="images/partners/page-logo-1">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-2.png" alt="images/partners/page-logo-2">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-3.png" alt="images/partners/page-logo-3">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-4.png" alt="images/partners/page-logo-4">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-5.png" alt="images/partners/page-logo-5">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-6.png" alt="images/partners/page-logo-6">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-7.png" alt="images/partners/page-logo-7">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a class="logo-partner" href="#">
-                <img src="images/partners/page-logo-1.png" alt="images/partners/page-logo-1">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-2.png" alt="images/partners/page-logo-2">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-3.png" alt="images/partners/page-logo-3">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-4.png" alt="images/partners/page-logo-4">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-5.png" alt="images/partners/page-logo-5">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-6.png" alt="images/partners/page-logo-6">
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="logo-partner">
-                <img src="images/partners/page-logo-7.png" alt="images/partners/page-logo-7">
-              </a>
+              <h4 class="iconbox-title mt20"><strong>Sélectionner un service</strong></h4>
+              <p class="text mb-0">
+                Vous êtes à la recherche d'une entreprise pour réaliser vos projets ? Notre plateforme simplifie votre choix
+                Sélectionnez votre service parmi une variété de catégories.
+              </p>
             </div>
           </div>
-          <div class="swiper-pagination tes-bullet"></div>
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
+              <span class="icon fz40 flaticon-web-design"></span>
+              <h4 class="iconbox-title mt20"><strong>Choisissez l'entreprise offrant le service</strong></h4>
+              <p class="text mb-0">Consultez les avis et réalisations des entreprises proposant ce service, et faites un choix éclairé pour la réalisation de votre projet</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="iconbox-style9 default-box-shadow1 bgc-white p40 bdrs12 position-relative mb30">
+              <span class="icon fz40 flaticon-secure"></span>
+              <h4 class="iconbox-title mt20"><strong>Discuter avec l'entreprise sur la plateforme</strong></h4>
+              <p class="text mb-0">Veuillez compléter le formulaire en renseignant vos besoins, et l'entreprise vous contactera pour en discuté.</p>
+            </div>
+          </div>
 
         </div>
       </div>
-    </div>
-  </section>
-  <!--End wd-partner -->
+    </section>
 
-  <section class="wd-banner-CTA">
-    <div class="tf-container">
-      <div class="row">
-        <div class="col-lg-12  wow fadeInUp">
-          <div class="group-banner-CTA">
-            <h3>Job Opportunities Are Always Open</h3>
-            <p>Aenean porta, eros lacus congue lorem, sit amet mollis magna velit ac erat.</p>
-            <div class="group-btn">
-              <button class="tf-btn">Search Job</button>
-              <button class="tf-btn">Find Candidates</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
 @endsection

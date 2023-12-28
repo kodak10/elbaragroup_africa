@@ -6,6 +6,7 @@ use App\Http\Controllers\WebsiteController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\EntrepriseController;
 use App\Http\Controllers\AuthentificationController;
+use App\Http\Controllers\ServiceEntrepriseController;
 use App\Http\Controllers\DemandeServiceClientController;
 
 /*
@@ -57,6 +58,9 @@ Route::resource('demandeService', DemandeServiceClientController::class);
         Route::get('/message', [EntrepriseController::class, 'message']);
         Route::get('/edit-password', [EntrepriseController::class, 'edit_password']);
         Route::get('/create-service', [EntrepriseController::class, 'create_service']);
+        Route::post('/create-service', [EntrepriseController::class, 'create_service_store'])->name('store_service');
+
+        //Route::resource('/service', ServiceEntrepriseController::class);
 
 
     });

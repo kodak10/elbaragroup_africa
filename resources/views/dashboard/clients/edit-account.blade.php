@@ -39,7 +39,7 @@
                                     @endif
 
 
-            <form method="POST" action="{{route('update_profil_client')}}">
+            <form method="POST" action="{{route('update_profil_client')}}" enctype="multipart/form-data">
                 @csrf
                <div class="row">
                 <div class="col-lg-6">
@@ -50,7 +50,7 @@
                         <div id="upload-profile">
                           <h5 class="fw-6">Photo de profil</h5>
                           <h6>JPG 80x80px</h6>
-                          <input class="up-file" id="tf-upload-img" type="file" name="image">
+                          <input class="up-file" id="tf-upload-img" type="file" name="image" accept="image/*">
                         </div>
                     </div>
                 </div>

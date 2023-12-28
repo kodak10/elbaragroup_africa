@@ -50,7 +50,7 @@
                         <div id="upload-profile">
                           <h5 class="fw-6">Importer le Logo:</h5>
                           <h6>JPG 80x80px</h6>
-                          <input class="up-file" id="tf-upload-img" type="file" name="logo">
+                          <input class="up-file" id="tf-upload-img" type="file" name="logo" accept="image/*">
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <div id="upload-profile2">
                           <h5 class="fw-6">Importer la couverture</h5>
                           <h6>JPG 1920x460px</h6>
-                          <input class="up-file" id="tf-upload-img2" type="file" name="couverture">
+                          <input class="up-file" id="tf-upload-img2" type="file" name="couverture" accept="image/*">
 
                         </div>
                     </div>
