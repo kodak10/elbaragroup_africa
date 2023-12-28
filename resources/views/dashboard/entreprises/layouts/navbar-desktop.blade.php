@@ -6,7 +6,7 @@
                     <div class="header-ct-left">
                         <div >
                             <a href="/">
-                            <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo.jpeg')}}" alt="Logo"/>
+                                <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo-white.png')}}" alt="Logo"/>
                             </a>
                         </div>
                         <div class="categories">

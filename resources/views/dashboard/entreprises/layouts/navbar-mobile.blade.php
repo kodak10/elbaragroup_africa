@@ -5,7 +5,7 @@
       <div class="mobile-header">
         <div >
             <a href="/">
-            <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo.jpeg')}}" alt="Logo"/>
+                <img class="site-logo" style="width: 80px !important; height:80px !important;" src="{{asset('assets/images/logo-white.png')}}" alt="Logo"/>
             </a>
         </div>
         <a class="title-button-group"><i class="icon-close"></i></a>
