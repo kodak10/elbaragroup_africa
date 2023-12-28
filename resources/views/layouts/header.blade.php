@@ -51,7 +51,7 @@
 
                 <div class="header-customize-item account">
                     @if (auth()->user()->hasRole('client'))
-                    <img src="{{Auth::user()->client->photo}}" alt="" />
+                    <img src="{{ asset('storage/assets/images/profil/' . Auth::user()->client->photo) }}" alt="" />
 
                         <div class="name">
                             {{Auth::user()->name}}<span class="icon-keyboard_arrow_down"></span>
@@ -79,7 +79,7 @@
                         </div>
 
                     @elseif(auth()->user()->hasRole('compagny'))
-                        <img src="{{Auth::user()->compagny->photo}}" alt="" />
+                        <img src="{{ asset('storage/assets/images/profil/' . Auth::user()->compagny->photo) }}" alt="" />
                         <div class="name">
                             {{Auth::user()->name}}<span class="icon-keyboard_arrow_down"></span>
                         </div>

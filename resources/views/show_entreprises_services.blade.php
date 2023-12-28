@@ -39,7 +39,7 @@
         @forelse ($serviceEntreprises as $serviceEntreprise)
             <div class="widget-blog-1 style-1 cl3 stc">
                 <div class="img-blog">
-                    <img src="{{$serviceEntreprise->couverture}}" alt="image">
+                    <img src="{{asset('storage/assets/images/profil/' . $serviceEntreprise->photo)}}" alt="image">
                 </div>
                 <div class="content">
                     <h5 class="main-title"><a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}">{{$serviceEntreprise->name}}</a></h5>

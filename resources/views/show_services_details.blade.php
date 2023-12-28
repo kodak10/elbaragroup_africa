@@ -14,7 +14,7 @@
     }
 </style>
 <section class="single-job-thumb">
-    <img src="{{$serviceDetails->couverture}}" alt="images">
+    <img src="{{asset('storage/assets/images/couverture/' . $serviceDetails->couverture)}}" alt="images">
 </section>
 
 <section class="form-sticky fixed-space">
@@ -24,7 +24,7 @@
     <div class="wd-job-author2">
       <div class="content-left">
         <div class="thumb">
-          <img src="{{$serviceDetails->photo}}" alt="logo">
+          <img src="{{asset('storage/assets/images/profil/' . $serviceDetails->photo)}}" alt="logo">
         </div>
         <div class="content">
           <a href="#" class="category">{{$serviceDetails->libelle}}</a>
