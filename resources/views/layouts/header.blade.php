@@ -63,14 +63,9 @@
                         <div class="sub-account-item">
                             <a href="/user/mon_compte"><span class="icon-mypackage"></span>Parametrage du compte</a>
                         </div>
+
                         <div class="sub-account-item">
-                            <a href="/user/create-service"><span class="icon-dashboard"></span>Poster un service</a>
-                        </div>
-                        <div class="sub-account-item">
-                            <a href="/user/service"><span class="icon-work"></span>Mes Services</a>
-                        </div>
-                        <div class="sub-account-item">
-                            <a href="/user/messaget"><span class="icon-chat"></span>Messages</a>
+                            <a href="/user/message"><span class="icon-chat"></span>Messages</a>
                         </div>
 
                         <div class="sub-account-item">
