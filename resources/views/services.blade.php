@@ -40,8 +40,8 @@
 
             <div class="row mt-5">
                 @forelse ($services as $service )
-                    <div class="col-lg-3 mt-3 mb-3">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-lg-3 mt-3 mb-3 m-auto">
+                        <div class="card w-100">
                             <img src="{{$service->image}}" class="card-img-top zoomRotateImage img-fluid w-100" alt="..." style="height: 200px !important">
                             <div class="card-body p-2 mb-3">
                               <p class="card-text"><a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}}</a></p>
