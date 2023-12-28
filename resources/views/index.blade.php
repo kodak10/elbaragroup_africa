@@ -10,44 +10,7 @@
     }
 
 </style>
-    {{-- <section class="tf-slider sl1 parallax">
-        <div class="tf-container">
-        <div class="row">
-            <div class="col-xl-8">
-            <div class="content">
-                <div class="heading">
-                <h3 class="text-white">Trouvez l'entreprise qui correspond à vos besoins.</h3>
-                <p class="text-white">Des millions de personnes utilisent ElbaraGroup Africa pour concrétiser leurs idées à travers une multitude d'entreprises qui proposent des services.</p>
-                </div>
-                <div class="form-sl">
-                <form method="post">
-                    <div class="row-group-search home1">
-                    <div class="form-group-1">
-                        <input type="text" class="input-filter-search" placeholder="Quel est le service que vous rechercher ?">
-                    </div>
-                    <div class="form-group-2">
-
-                        <select id="select-location" class="select-location">
-                            <option value="">Toutes les catégories</option>
-                            @foreach ($categories as $categorie )
-                                <option value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
-                            @endforeach
-                        </select>
-                    </div>
-                    <div class="form-group-4">
-                        <button type="submit" class="btn btn-find">Trouver le service</button>
-                    </div>
-                    </div>
-                </form>
-
-                </div>
-
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="overlay"></div>
-    </section> --}}
+    
 
     <section class="tf-slider sl3 over-flow-hidden " style="min-height: 70vh !important; ">
         <div class="tf-container ">

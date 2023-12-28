@@ -96,7 +96,7 @@
                             Nous déployons une gamme diversifiée de prestation aupres de nos partenaires ,
                             englobant une expertise a la fois intérieur et extérieur, des outils adaptés selon le
                             secteur d’activité et selon le besoin; visant à améliorer la sécurité et le confort de conduite.
-                            <img src="{{asset('assets/images/departement.jpg')}}" class="img-fluid w-100" alt="image">
+                            <img src="{{asset('assets/images/departement.jpg')}}" class="img-fluid w-100 mt-5" alt="image">
                         </div>
                       </div>
                     </div>
@@ -334,7 +334,7 @@
 
 
      <!-- Our Testimonials -->
-     <section class="our-testimonial">
+     {{-- <section class="our-testimonial">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mx-auto wow fadeInUp" data-wow-delay="300ms">
@@ -411,6 +411,291 @@
               </div>
             </div>
           </div>
+        </div>
+    </section> --}}
+    <section class="testimonials-section">
+        <div class="wrap-testimonials over-flow-hidden">
+        <div class="tf-container">
+            <div class="row">
+            <div class="col-lg-12">
+                <div class="tf-title style-2">
+                <div class="group-title">
+                    <h1>Ce que disent nos clients</h1>
+                    <!-- <p>Showing companies based on reviews and recent job openings</p> -->
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-12 wow fadeInUp">
+                <div class="swiper-container tes-slider">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <div class="wd-testimonials">
+                        <p class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+                        <div class="author-group">
+                        <div class="avatar">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
+                        </div>
+                        <div class="infor">
+                            <h6>Pete Jones</h6>
+                            <div class="position">Head of Marketing Build</div>
+                            <ul class="rating">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+                                viewBox="0 0 13 14" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="wd-testimonials">
+                        <p class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+
+                        <div class="author-group">
+                        <div class="avatar">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
+                        </div>
+                        <div class="infor">
+                            <h6>Pete Jones</h6>
+                            <div class="position">Head of Marketing Build</div>
+                            <ul class="rating">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+                                viewBox="0 0 13 14" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="wd-testimonials">
+                        <p class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+
+                        <div class="author-group">
+                        <div class="avatar">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
+                        </div>
+                        <div class="infor">
+                            <h6>Pete Jones</h6>
+                            <div class="position">Head of Marketing Build</div>
+                            <ul class="rating">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+                                viewBox="0 0 13 14" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="wd-testimonials">
+                        <p class="description">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+
+                        <div class="author-group">
+                        <div class="avatar">
+                            <img src="{{asset('assets/images/review/testimonials.jpg')}}" alt="images">
+                        </div>
+                        <div class="infor">
+                            <h6>Pete Jones</h6>
+                            <div class="position">Head of Marketing Build</div>
+                            <ul class="rating">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            <li class="inactive"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+                                viewBox="0 0 13 14" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.94418 8.42155L0.367213 6.2883C-0.11917 5.89933 0.094156 5.11714 0.711378 5.02896L4.36635 4.86612L5.92719 0.953019C6.03598 0.736138 6.25713 0.599609 6.49961 0.599609C6.74209 0.599609 6.96324 0.736849 7.07203 0.953019L8.63286 4.86612L12.2878 5.02896C12.9051 5.11714 13.1184 5.89933 12.632 6.2883L10.055 8.42155L10.7583 12.5864C10.8394 13.1545 10.2492 13.5798 9.73647 13.3231L6.49961 11.2659L3.26275 13.3224C2.74935 13.5791 2.15986 13.1538 2.24092 12.5857L2.94418 8.42155Z"
+                                    fill="#FFB321" />
+                                </svg></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                <div class="swiper-pagination tes-bullet"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="d-none">
+        <div class="wd-partner">
+        <div class="tf-container">
+            <h1 class="title-partner">
+            Over 100,000 recruiters use Jobtex to modernize their hiring
+            </h1>
+            <div class="swiper partner-type-6">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <a class="logo-partner" href="#">
+                    <img src="images/partners/Logo.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-1.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img  src="images/partners/Logo-2.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-3.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img  src="images/partners/Logo-4.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-5.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-1.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-2.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-3.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-4.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                <a href="#" class="logo-partner">
+                    <img src="images/partners/Logo-5.png" alt="images/partners/Logo.png">
+                </a>
+                </div>
+            </div>
+
+            </div>
+        </div>
         </div>
     </section>
 
