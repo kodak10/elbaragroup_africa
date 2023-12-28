@@ -6,6 +6,7 @@ use App\Http\Controllers\WebsiteController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\EntrepriseController;
 use App\Http\Controllers\AuthentificationController;
+use App\Http\Controllers\DemandeServiceClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,7 @@ Route::get('/about', [WebsiteController::class, 'about']);
 Route::get('/contact', [WebsiteController::class, 'contact']);
 Route::get('/departements', [WebsiteController::class, 'departements']);
 
+Route::resource('demandeService', DemandeServiceClientController::class);
 
 
 

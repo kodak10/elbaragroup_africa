@@ -64,6 +64,9 @@
         .zoomRotateImage:hover {
             transform: scale(1.1) rotate(10deg);
         }
+        .switcher-container{
+            display: none;
+        }
 
     </style>
 </head>
