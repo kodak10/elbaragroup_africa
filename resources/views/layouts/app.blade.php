@@ -67,7 +67,19 @@
         .switcher-container{
             display: none;
         }
+        .btn{
+            background-color: var(--color-jaune) !important;
 
+        }
+        .btn:hover{
+            background-color: var(--color-bleu) !important;
+        }
+        #scroll-top{
+            background-color: var(--color-jaune) !important;
+        }
+        .header i{
+            color: var(--color-bleu) !important;
+        }
     </style>
 </head>
 

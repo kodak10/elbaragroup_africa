@@ -2,10 +2,10 @@
   * Name: Jobtext
   * Version: 1.0.2
   * Author: Themesflat
-  * Author URI: http://themesflat.com 
+  * Author URI: http://themesflat.com
 
 */
-/* 
+/*
 
   * Reset
   * Header
@@ -18,11 +18,20 @@
   * Preload
   * Boxed
   * Switcher
-  * Scroll 
-  
+  * Scroll
+
 */
 /* Reset
 -------------------------------------------------------------- */
+:root {
+
+    --headings-color: #222222;
+    --body-text-color: #6B7177 ;
+    --color-bleu: #102a87;
+    --color-jaune:#fc950d ;
+  }
+
+
 html {
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -2627,7 +2636,7 @@ input[type="color"],
   overflow: hidden;
 }
 
-/* Preload 
+/* Preload
 ------------------------------------------- */
 .preload-container {
   position: relative;
@@ -2665,7 +2674,7 @@ input[type="color"],
   display: inline-grid;
   border: 4.5px solid #0000;
   border-radius: 50%;
-  border-color: #14a076a3 #0000;
+  border-color: var(--color-jaune) var(--color-bleu);
   animation: spinner-preloader 1s infinite linear;
 }
 
@@ -2992,7 +3001,7 @@ input[type="color"],
 
 #scroll-top::before {
   z-index: -1;
-  background-color: #14a077;
+  background-color: var(--color-bleu);
 }
 
 #scroll-top::before,

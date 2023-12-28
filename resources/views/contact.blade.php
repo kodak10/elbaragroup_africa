@@ -3,7 +3,7 @@
 
 <style>
     .header{
-        background-color: #1F4B3F !important;
+        background-color: #ffff !important;
     }
     #header .style-absolute{
         position: fixed !important;

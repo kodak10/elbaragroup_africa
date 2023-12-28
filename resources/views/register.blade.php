@@ -10,15 +10,29 @@
 </style>
 <style>
     .header{
-        background-color: #1F4B3F !important;
+        background-color: #ffff !important;
     }
     #header .style-absolute{
         position: fixed !important;
     }
     .header{
-        position: fixed !important;
+        position: relative !important;
+    }
+    button{
+        background-color: var(--color-jaune) !important;
+        border-color: var(--color-jaune) !important;
+    }
+    .forgot{
+        color: var(--color-jaune) !important;
+    }
+    .wd-form-login .active{
+        background-color: var(--color-jaune) !important;
+        color: #ffff !important;
+
     }
 </style>
+
+
 
 
 

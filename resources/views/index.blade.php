@@ -6,11 +6,36 @@
         font-weight: 600 !important;
     }
     .bgc-thm2 {
-        background-color: #1F4B3F;
+        background-color: var(--color-bleu) !important;
+    }
+    .tf-slider.sl3 {
+
+        background: var(--color-bleu) !important;
+    }
+    .btn-category-job{
+        color: var(--color-jaune) !important;
+    }
+    .job-category-header h1 a{
+        color: var(--color-bleu) !important;
     }
 
+    .tf-button{
+        border-color: var(--color-jaune) !important;
+    }
+    .tf-iconbox path{
+        color: var(--color-bleu) !important;
+    }
+    .position{
+        color: var(--color-bleu) !important;
+    }
+    .box-header path{
+        color: var(--color-jaune) !important;
+    }
+    .wd-list-icon path{
+        color: var(--color-jaune) !important;
+    }
 </style>
-    
+
 
     <section class="tf-slider sl3 over-flow-hidden " style="min-height: 70vh !important; ">
         <div class="tf-container ">
@@ -33,7 +58,7 @@
                         <select name="category" id="category select-location" class="select-location">
                             <option value="">Toutes les catégories</option>
                             @foreach ($categories as $categorie )
-                                <option value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
+                                <option class="text-uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
                             @endforeach
                         </select>
                       </div>
@@ -42,7 +67,6 @@
                     </div>
                     </div>
                   </form>
-                  <!-- End Job  Search Form-->
                 </div>
 
               </div>

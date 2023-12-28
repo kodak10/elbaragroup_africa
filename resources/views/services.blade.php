@@ -4,7 +4,13 @@
 <style>
     .header{
         margin-bottom: 3rem !important;
-        background-color: #1F4B3F !important;
+        background-color: #ffff !important;
+    }
+    #header .style-absolute{
+        position: fixed !important;
+    }
+    .header{
+        position: relative !important;
     }
 </style>
 
