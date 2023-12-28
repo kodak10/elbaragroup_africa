@@ -34,6 +34,7 @@
     .wd-list-icon path{
         color: var(--color-jaune) !important;
     }
+    
 </style>
 
 
