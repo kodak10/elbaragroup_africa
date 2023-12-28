@@ -105,7 +105,7 @@
                             <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
 
                                 <span class="icon-log-out"></span> Se Déconnecter</a>
-                                <form id="logout-form" action="" method="POST" style="">
+                                <form id="logout-form" action="{{route('logout')}}" method="POST" style="">
                                     @csrf
                                 </form>
                             {{-- <a href="/dashboard-entreprise"><span class="icon-dashboard"></span>Menu Général</a> --}}
