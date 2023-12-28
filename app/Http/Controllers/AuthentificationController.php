@@ -155,7 +155,7 @@ class AuthentificationController extends Controller
 
         // Si l'utilisateur est un client
         if (Auth::user()->hasRole('client')) {
-            return redirect('/login')->with(["success" => true, "message" => "Vous êtes connecter avec succès"], 403);
+            return redirect('/connexion')->with(["success" => true, "message" => "Vous êtes connecter avec succès"], 403);
         }
 
         // Si l'utilisateur est une entreprise
@@ -170,7 +170,6 @@ class AuthentificationController extends Controller
                 auth()->user()->tokens()->delete();
                 return redirect('/connexion')->with(["success" => false, "message" => "Votre compte est en attente de vérification"], 403);
             }
-
 
         }
         // Si l'utilisateur est le service client

@@ -205,7 +205,7 @@
                                                         <span class="icon-bolt"></span>
                                                     </h3>
 
-                                                    <span class="icon-heart"></span>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -540,7 +540,7 @@
                                 <span class="icon-star-full"></span>
                             </div> --}}
                             <h3>
-                                <a href="employers-single.html">{{$entreprise->name}}</a>
+                                <a href="#">{{$entreprise->name}}</a>
                                 {{-- <span class="icon-bolt"></span> --}}
                             </h3>
                             <p class="info">
