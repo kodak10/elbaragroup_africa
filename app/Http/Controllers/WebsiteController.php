@@ -83,6 +83,7 @@ class WebsiteController extends Controller
             ->join('entreprises', 'service_entreprises.entreprise_id', '=', 'entreprises.id')
             ->where('services.libelle', $slug)
             ->where('entreprises.approve', '=' , '1')
+            //->select('entreprises.*', 'entreprises.couvertures as couverture') // Utilisez un alias p
             ->select('*')
             ->get();
 
@@ -107,24 +108,25 @@ class WebsiteController extends Controller
         ->join('services', 'service_entreprises.service_id', '=', 'services.id')
         ->join('entreprises', 'service_entreprises.entreprise_id', '=', 'entreprises.id')
         ->where('entreprises.name', $entreprise_nom)
-        ->select('service_entreprises.service_id',
-        'service_entreprises.entreprise_id',
+        ->select('*')
+        // ->select('service_entreprises.service_id',
+        // 'service_entreprises.entreprise_id',
 
-        'entreprises.id as entreprise_id',
-        'services.id as services_id',
+        // 'entreprises.id as entreprise_id',
+        // 'services.id as services_id',
 
-        'service_entreprises.libelle as se_libelle',
-        'service_entreprises.description as se_description',
-        'service_entreprises.delais_execution as delais_execution',
-        'service_entreprises.image as se_image',
-        'services.libelle as service_libelle',
-        'entreprises.name as entreprise_name',
-        'entreprises.type_entreprise as type_entreprise',
-        'entreprises.localisation as localisation',
-        'services.libelle as service_libelle',
+        // 'service_entreprises.libelle as se_libelle',
+        // 'service_entreprises.description as se_description',
+        // 'service_entreprises.delais_execution as delais_execution',
+        // 'service_entreprises.image as se_image',
+        // 'services.libelle as service_libelle',
+        // 'entreprises.name as entreprise_name',
+        // 'entreprises.type_entreprise as type_entreprise',
+        // 'entreprises.localisation as localisation',
+        // 'services.libelle as service_libelle',
 
 
-        )
+        //)
         ->first();
 
         $categories = Departement::get();

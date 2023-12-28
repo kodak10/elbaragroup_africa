@@ -20,7 +20,9 @@ class Entreprise extends Model
         'approve',
         'num_inscription',
         'user_id',
-        'approve',
+        'couverture',
+        'site_web',
+        'facebook',
     ];
 
     public function user()

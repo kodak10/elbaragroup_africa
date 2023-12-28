@@ -14,7 +14,7 @@
     }
 </style>
 <section class="single-job-thumb">
-    <img src="{{asset('assets/images/review/singlejob.jpg')}}" alt="images">
+    <img src="{{$serviceDetails->couverture}}" alt="images">
 </section>
 
 <section class="form-sticky fixed-space">
@@ -24,11 +24,11 @@
     <div class="wd-job-author2">
       <div class="content-left">
         <div class="thumb">
-          <img src="images/logo-company/cty4.png" alt="logo">
+          <img src="{{$serviceDetails->photo}}" alt="logo">
         </div>
         <div class="content">
-          <a href="#" class="category">{{$serviceDetails->service_libelle}}</a>
-          <h6><a href="#">{{$serviceDetails->entreprise_name}}<span class="icon-bolt"></span></a></h6>
+          <a href="#" class="category">{{$serviceDetails->libelle}}</a>
+          <h6><a href="#">{{$serviceDetails->name}}<span class="icon-bolt"></span></a></h6>
           <ul class="job-info">
             <li><span class="icon-calendar"></span>
                 <span>{{$serviceDetails->type_entreprise}}</span>
@@ -40,10 +40,7 @@
                 <span>{{$serviceDetails->delais_execution}} Jours</span>
             </li>
           </ul>
-          {{-- <ul class="tags">
-            <li><a href="#">Full-time</a></li>
-            <li><a href="#">Remote</a></li>
-          </ul> --}}
+
         </div>
       </div>
       <div class="content-right">
@@ -146,7 +143,7 @@
       </ul>
       <div class="content-tab">
         <div class="inner-content">
-            <p>{{$serviceDetails->se_description}}</p>
+            <p>{{$serviceDetails->description}}</p>
 
             <div class="video-thumb">
 
@@ -177,14 +174,14 @@
 
     </div>
       <ul class="list-infor">
-        <li><div class="category">Site Web</div><div class="detail"><a href="#"></a></div></li>
+        <li><div class="category">Site Web</div><div class="detail"><a href="#">{{$serviceDetails->site_web}}</a></div></li>
         <li><div class="category">Localisation</div><div class="detail">{{$serviceDetails->localisation}}</div></li>
       </ul>
 
       <div class="wd-social d-flex aln-center">
         <span>Socials:</span>
         <ul class="list-social d-flex aln-center">
-            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-facebook"></i>{{$serviceDetails->facebook}}</a></li>
         </ul>
     </div>
     {{-- <div class="form-job-single">

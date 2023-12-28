@@ -190,23 +190,26 @@
                             <div class="job-archive-header">
                                 <div class="row">
                                     <div class="inner-box">
-                                       <div class="col-lg-4">
-                                            <div class="logo-company">
-                                                <img class="img-fluid w-100 zoomRotateImage" src="{{$service->image}}"
-                                                    alt="image" />
-                                            </div>
-                                       </div>
-                                        <div class="col-lg-8">
-                                            <div class="box-content">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="logo-company">
+                                                    <img class="img-fluid w-100" src="{{$service->image}}"
+                                                        alt="image" />
+                                                </div>
+                                           </div>
+                                            <div class="col-lg-8">
+                                                <div class="box-content">
 
-                                                <h3>
-                                                    <a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}} </a>
-                                                    <span class="icon-bolt"></span>
-                                                </h3>
+                                                    <h3>
+                                                        <a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}} </a>
+                                                        <span class="icon-bolt"></span>
+                                                    </h3>
 
-                                                <span class="icon-heart"></span>
+                                                    <span class="icon-heart"></span>
+                                                </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -1120,7 +1123,7 @@
                 <div class="trader-box">
                   <div class="content">
                     <h3 class="number wrap-counter">
-                      <span class="number counter-number" data-speed="200" data-to="25"></span>
+                      <span class="number counter-number" data-speed="200" data-to="2500"></span>
                     </h3>
                     <div class="des">Services disponibles</div>
                   </div>
@@ -1136,7 +1139,7 @@
                     </div>
                     <div class="content">
                       <h6 class="number wrap-counter">
-                        <span class="number counter-number" data-speed="2000" data-to="20000"></span><span>+</span>
+                        <span>+</span><span class="number counter-number" data-speed="2000" data-to="20"></span><span>M</span>
                       </h6>
                       <div class="des">Client satistaits</div>
                     </div>
