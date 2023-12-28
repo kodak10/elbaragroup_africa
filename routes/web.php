@@ -33,6 +33,8 @@ Route::get('/services', [WebsiteController::class, 'search'])->name('services.se
 Route::get('/services/{slug}', [WebsiteController::class, 'showEntrepriseService'])->name('EntrepriseService.show');
 Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'serviceShow'])->name('serviceDetail.show');
 
+Route::get('/about', [WebsiteController::class, 'about']);
+Route::get('/contact', [WebsiteController::class, 'contact']);
 
 
 

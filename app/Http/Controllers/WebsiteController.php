@@ -123,5 +123,17 @@ class WebsiteController extends Controller
         return view('show_services_details', compact('serviceDetails', 'categories', 'images'));
     }
 
+    public function contact()
+    {
+        $categories = Departement::get();
+        return view('contact', compact('categories'));
+    }
+
+    public function about()
+    {
+        $categories = Departement::get();
+        return view('about', compact('categories'));
+    }
+
 
 }
