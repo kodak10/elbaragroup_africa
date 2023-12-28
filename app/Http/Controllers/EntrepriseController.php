@@ -70,7 +70,8 @@ class EntrepriseController extends Controller
             'nationalite' => 'required|string|max:255',
             'password' => 'nullable|string|confirmed',
             'telephone' => 'nullable|string|max:15',
-            'image' => 'image|mimes:jpeg,png,gif,webp,jpg|max:2048'
+            'couverture' => 'image|mimes:jpeg,png,gif,webp,jpg|max:2048',
+            'logo' => 'image|mimes:jpeg,png,gif,webp,jpg|max:2048'
         ];
 
         $messages = [
@@ -79,10 +80,16 @@ class EntrepriseController extends Controller
             'password.confirmed' => 'Les deux champs de mot de passe ne correspondent pas.',
             'password.min' => 'Le mot de passe doit contenir au moins 6 caractères.',
             'old_password.custom_validation' => 'Le mot de passe actuel est incorrecte.',
-            'image.image' => 'Le fichier doit être une image valide.',
-            'image.mimes' => 'Seules les images de type :values sont autorisées.',
-            'image.max' => 'La taille maximale de l\'image est de :max kilo-octets.',
+
             'email.unique' => 'L\'adresse email est déjà utilisée par un autre utilisateur.',
+
+            'couverture.image' => 'Le fichier doit être une image valide.',
+            'couverture.mimes' => 'Seules les images de type :values sont autorisées.',
+            'couverture.max' => 'La taille maximale de l\'image est de :max kilo-octets.',
+
+            'logo.image' => 'Le fichier doit être une image valide.',
+            'logo.mimes' => 'Seules les images de type :values sont autorisées.',
+            'logo.max' => 'La taille maximale de l\'image est de :max kilo-octets.',
         ];
 
         $validator = Validator::make($request->all(), $rules, $messages);
@@ -106,13 +113,13 @@ class EntrepriseController extends Controller
         }
 
         if ($request->hasFile('logo')) {
-            $image = $request->file('image');
+            $image = $request->file('logo');
             $imageName = $user->id . '_' . now()->format('Ymd_His') . '.' . $image->getClientOriginalExtension();
             $image->storeAs('public/assets/images/profil', $imageName);
             $compagny->photo = $imageName;
         }
         if ($request->hasFile('couverture')) {
-            $image = $request->file('image');
+            $image = $request->file('couverture');
             $imageName = $user->id . '_' . now()->format('Ymd_His') . '.' . $image->getClientOriginalExtension();
             $image->storeAs('public/assets/images/couverture', $imageName);
             $compagny->photo = $imageName;

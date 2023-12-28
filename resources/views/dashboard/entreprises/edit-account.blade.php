@@ -39,7 +39,7 @@
                                     @endif
 
 
-            <form method="POST" action="{{route('update_profil')}}">
+            <form method="POST" action="{{route('update_profil')}}" enctype="multipart/form-data">
                 @csrf
                <div class="row">
                 <div class="col-lg-6">
