@@ -150,7 +150,7 @@ class AuthentificationController extends Controller
             auth()->user()->tokens()->delete();
             //return redirect()->route('login')->with('success','Votre inscription à été prise en compte');
 
-            return redirect()->route('login')->with(["success" => false, "message" => "Vous devez valider votre email avant de vous connecter"], 403);
+            return redirect('/connexion')->with(["success" => false, "message" => "Vous devez valider votre email avant de vous connecter"], 403);
         }
 
         // Si l'utilisateur est un client

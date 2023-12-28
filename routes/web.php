@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\AuthentificationController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\WebsiteController;
-use App\Http\Controllers\EntrepriseController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\EntrepriseController;
+use App\Http\Controllers\AuthentificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,8 @@ Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'ser
 
 Route::get('/about', [WebsiteController::class, 'about']);
 Route::get('/contact', [WebsiteController::class, 'contact']);
+Route::get('/departements', [WebsiteController::class, 'departements']);
+
 
 
 
@@ -54,7 +57,15 @@ Route::get('/contact', [WebsiteController::class, 'contact']);
         Route::get('/create-service', [EntrepriseController::class, 'create_service']);
 
 
+    });
 
+//  Route::prefix('user')->middleware(['auth','role:client'])->group(function () {
+    Route::prefix('user')->middleware(['auth'])->group(function () {
+
+        Route::get('/', [ClientController::class, 'index']);
+        Route::get('/mon_compte', [ClientController::class, 'edit']);
+        Route::post('/mon_compte', [ClientController::class, 'update_profil'])->name('update_profil_client');
+        Route::get('/message', [ClientController::class, 'message']);
 
 
     });

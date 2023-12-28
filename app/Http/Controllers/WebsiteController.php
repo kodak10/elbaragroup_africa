@@ -26,6 +26,14 @@ class WebsiteController extends Controller
         return view('login', compact('categories'));
     }
 
+    public function departements()
+    {
+        $categories = Departement::get();
+
+        return view('departements', compact('categories'));
+    }
+
+
     public function register()
     {
         $categories = Departement::get();

@@ -1,4 +1,4 @@
-@extends('dashboard.entreprises.layouts.app')
+@extends('dashboard.clients.layouts.app')
 @section('content')
 <section class="page-title-dashboard">
     <div class="themes-container">
@@ -15,7 +15,6 @@
     <div class="themes-container">
       <div class="row">
         <p>Heureux de vous revoir {{Auth::user()->client->nom}} {{Auth::user()->client->prenoms}}</p>
-
         <div class="col-lg-12 col-md-12 ">
           <div class="wrap-icon widget-counter">
 
@@ -25,7 +24,7 @@
                 </div>
                 <div class="content">
                     <div class="count-dash counter-number" data-speed="2000" data-to="15"></div>
-                    <h4 class="title-count">Service Publié</h4>
+                    <h4 class="title-count">Demandes envoyé</h4>
                 </div>
             </div>
             <div class="box-icon wrap-counter flex">
@@ -34,7 +33,7 @@
               </div>
               <div class="content">
                 <div class="count-dash counter-number" data-speed="2000" data-to="2068"></div>
-                <h4 class="title-count">Demandes reçus</h4>
+                <h4 class="title-count">Lorem</h4>
               </div>
             </div>
             <div class="box-icon wrap-counter flex">
@@ -66,7 +65,7 @@
 
 
 
-  <section class="flat-dashboard-applicants">
+  {{-- <section class="flat-dashboard-applicants">
     <div class="themes-container">
       <div class="row">
         <div class="col-lg-12 col-md-12 ">
@@ -131,7 +130,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
 
 @endsection

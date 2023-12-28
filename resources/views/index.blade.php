@@ -148,7 +148,7 @@
                             <h1>Parcourez par catégorie.</h1>
 
                         </div>
-                        <a href="find-jobs-list.html" class="tf-button">
+                        <a href="/departements" class="tf-button">
                             Toutes les catégories
                             <span class="icon-arrow-right2"></span>
                         </a>
@@ -192,29 +192,18 @@
                                     <div class="inner-box">
                                        <div class="col-lg-4">
                                             <div class="logo-company">
-                                                <img class="img-fluid w-100 zoomRotateImage" src="{{asset('assets/images/blog/image-08.jpg')}}"
+                                                <img class="img-fluid w-100 zoomRotateImage" src="{{asset('{{$service->image}}')}}"
                                                     alt="image" />
                                             </div>
                                        </div>
                                         <div class="col-lg-8">
                                             <div class="box-content">
-                                                {{-- <h4>
-                                                    <a href="">{{$service->departements->libelle}}</a>
-                                                </h4> --}}
+                                                
                                                 <h3>
                                                     <a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}} </a>
                                                     <span class="icon-bolt"></span>
                                                 </h3>
-                                                {{-- <ul>
-                                                    <li>
-                                                    <span class="icon-map-pin"></span>
-                                                    Localisation
-                                                    </li>
-                                                    <li>
-                                                    <span class="icon-calendar"></span>
-                                                    date de publication
-                                                    </li>
-                                                </ul> --}}
+
                                                 <span class="icon-heart"></span>
                                             </div>
                                         </div>

@@ -42,7 +42,7 @@
                 @forelse ($services as $service )
                     <div class="col-lg-3 mt-3 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img src="{{asset('assets/images/blog/image-03.jpg')}}" class="card-img-top zoomRotateImage img-fluid w-100" alt="..." style="height: 200px !important">
+                            <img src="{{asset('{{$service->image}}')}}" class="card-img-top zoomRotateImage img-fluid w-100" alt="..." style="height: 200px !important">
                             <div class="card-body p-2 mb-3">
                               <p class="card-text"><a href="{{ route('EntrepriseService.show', ['slug' => $service->libelle]) }}">{{$service->libelle}}</a></p>
                             </div>

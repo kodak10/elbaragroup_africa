@@ -56,26 +56,17 @@
                                 </div>
                                 <div class="sub-account">
                                     <div class="sub-account-item">
-                                        <a href="/compagny"><span class="icon-dashboard"></span>Menu Général</a>
+                                        <a href="/user"><span class="icon-dashboard"></span>Menu Général</a>
                                     </div>
                                     {{-- <div class="sub-account-item">
                                         <a href="#"><span class="icon-profile"></span> Aperçu du compte</a>
                                     </div> --}}
                                     <div class="sub-account-item">
-                                        <a href="/compagny/mon_compte"><span class="icon-mypackage "></span> Parametrage du compte</a>
+                                        <a href="/user/mon_compte"><span class="icon-mypackage "></span> Parametrage du compte</a>
                                     </div>
                                     <div class="sub-account-item">
-                                        <a href="/compagny/create-service"><span class="icon-submit"></span> Poster un service</a>
+                                        <a href="/user/message"><span class="icon-chat"></span> Messages</a>
                                     </div>
-                                    <div class="sub-account-item">
-                                        <a href=""><span class="icon-work"></span> Mes Services</a>
-                                    </div>
-
-                                    <div class="sub-account-item">
-                                        <a href="/compagny/message"><span class="icon-chat"></span> Messages</a>
-                                    </div>
-
-
 
                                     <div class="sub-account-item">
                                         <a href="javascript:void(0)"  onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
