@@ -17,8 +17,6 @@
         color: var(--color-jaune) !important;
     }
     .wd-form-login .active{
-        background-color: var(--color-jaune) !important;
-        color: #ffff !important;
 
     }
 </style>
