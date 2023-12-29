@@ -23,9 +23,7 @@
     }
 </style>
 <style>
-    .header{
-        margin-bottom: 2rem !important;
-    }
+    
     .nav-mobile{
     background-color: var(--color-bleu) !important;
   }
