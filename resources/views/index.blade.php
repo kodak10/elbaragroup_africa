@@ -37,6 +37,9 @@
     .nice-select .option{
       text-transform: uppercase !important;
     }
+    .nice-select .option.selected{
+        color: var(--color-bleu) !important;
+    }
     
 </style>
 

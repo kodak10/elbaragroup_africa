@@ -7,6 +7,15 @@
   .nav-mobile{
     background-color: var(--color-bleu) !important;
   }
+  .btn-thm{
+        background-color: var(--color-jaune) !important;
+        border-color: var(--color-jaune) !important;
+        color: #ffffff !important;
+    }
+    .btn-thm-border{
+      border-color: var(--color-jaune) !important;
+      color: var(--color-jaune) !important;
+    }
 </style>
 
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
@@ -176,7 +185,7 @@
                   <li><i class="far fa-check"></i>Accompagnement personnalisé.</li>
                 </ul>
               </div>
-              <a href="/services" class="ud-btn btn-thm-border">Trouver votre service<i class="fal fa-arrow-right-long"></i></a>
+              <a href="/services" class="ud-btn btn-thm-border ">Trouver votre service<i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
         </div>
@@ -291,7 +300,7 @@
               <div class="cta-style6 mb30-sm">
                 <h2 class="cta-title mb25">Trouvez les entreprises nécessaires pour <br class="d-none d-lg-block">faire croître votre activité.</h2>
                 <p class="text-thm2 fz15 mb25">Des entreprises de qualité qui sont <br class="d-none d-md-block"> en adequation avec votre vision.</p>
-                <a href="#" class="ud-btn btn-thm">Commencer <i class="fal fa-arrow-right-long"></i></a>
+                <a href="#" class="ud-btn btn-thm ">Commencer <i class="fal fa-arrow-right-long"></i></a>
               </div>
             </div>
             <div class="col-md-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">

@@ -1,3 +1,11 @@
+<style>
+    .tf-tab .menu-tab .active{
+        background-color: var(--color-bleu) !important;
+    }
+    .icon-call-calling{
+        color: var(--color-bleu) !important;
+    }
+</style>
 <div class="menu-mobile-popup">
     <div class="modal-menu__backdrop"></div>
     <div class="widget-filter">

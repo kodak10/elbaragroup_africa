@@ -16,8 +16,9 @@
     .forgot{
         color: var(--color-jaune) !important;
     }
-    .wd-form-login .active{
-
+    .wd-form-login .menu-tab .active{
+        background-color: var(--color-bleu) !important;
+        color: #ffffff !important;
     }
 </style>
 <style>
