@@ -770,7 +770,7 @@
             <div class="box">
               <div class="column-6">
                 <div class="img-iconbox">
-                  <img src="{{asset('assets/images/job/img-home-1.jpg')}}" alt="image" />
+                  <img src="{{asset('assets/images/about/about-7.jpg')}}" alt="image" />
                 </div>
               </div>
               <div class="column-6">
