@@ -12,6 +12,8 @@
   }
   .nav-mobile{
     background-color: var(--color-bleu) !important;
+    border-color: var(--color-bleu) !important;
+
   }
 </style>
 <section class="single-job-thumb">
@@ -178,8 +180,8 @@
 
     </div>
       <ul class="list-infor">
-        <li><div class="category">Site Web</div><div class="detail"><a href="#">{{$serviceDetails->site_web}}</a></div></li>
-        <li><div class="category">Localisation</div><div class="detail">{{$serviceDetails->localisation}}</div></li>
+        <li><div class="category">Site Web: </div><div class="detail"><a href="#">{{$serviceDetails->site_web}}</a></div></li>
+        <li><div class="category">Localisation: </div><div class="detail">{{$serviceDetails->localisation}}</div></li>
       </ul>
 
       <div class="wd-social d-flex aln-center">
@@ -188,17 +190,7 @@
             <li><a href="#"><i class="icon-facebook"></i>{{$serviceDetails->facebook}}</a></li>
         </ul>
     </div>
-    {{-- <div class="form-job-single">
-      <h6>Contact Us</h6>
-      <form action="#">
-        <input type="text" placeholder="Subject">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Message..."></textarea>
-        <button>Envoyer le messager</button>
-      </form>
-
-    </div> --}}
+   
     </div>
   </div>
 </div>
