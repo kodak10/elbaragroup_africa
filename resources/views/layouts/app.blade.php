@@ -43,6 +43,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <style>
+        :root {
+
+--headings-color: #222222;
+--body-text-color: #6B7177 ;
+--color-bleu: #102a87;
+--color-jaune:#fc950d ;
+}
+
         /* Définir l'animation */
         @keyframes zoomRotate {
             0% {
