@@ -34,6 +34,9 @@
     .wd-list-icon path{
         color: var(--color-jaune) !important;
     }
+    .nice-select .option{
+      text-transform: uppercase !important;
+    }
     
 </style>
 
@@ -59,7 +62,7 @@
                         <select name="category" id="category select-location" class="select-location">
                             <option value="">Toutes les catégories</option>
                             @foreach ($categories as $categorie )
-                                <option class="text-uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
+                                <option class="uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
                             @endforeach
                         </select>
                       </div>

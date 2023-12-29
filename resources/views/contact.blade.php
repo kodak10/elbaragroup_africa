@@ -2,16 +2,12 @@
 @section('content')
 
 <style>
-    .header{
-        background-color: #ffff !important;
-    }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: relative !important;
-        margin-bottom: 3rem !important;
-    }
+  .header{
+      margin-bottom: 2rem !important;
+  }
+  .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
 </style>
 
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">

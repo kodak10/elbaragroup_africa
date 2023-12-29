@@ -1,15 +1,48 @@
 @extends('layouts.app')
 @section('content')
 <style>
-    .header{
-        background-color: #ffff !important;
-    }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: fixed !important;
-    }
+
+  .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
+</style>
+<style>
+  .features-job .job-archive-header h3 a{
+      font-weight: 600 !important;
+  }
+  .bgc-thm2 {
+      background-color: var(--color-bleu) !important;
+  }
+  .tf-slider.sl3 {
+
+      background: var(--color-bleu) !important;
+  }
+  .btn-category-job{
+      color: var(--color-jaune) !important;
+  }
+  .job-category-header h1 a{
+      color: var(--color-bleu) !important;
+  }
+
+  .tf-button{
+      border-color: var(--color-jaune) !important;
+  }
+  .tf-iconbox path{
+      color: var(--color-bleu) !important;
+  }
+  .position{
+      color: var(--color-bleu) !important;
+  }
+  .box-header path{
+      color: var(--color-jaune) !important;
+  }
+  .wd-list-icon path{
+      color: var(--color-jaune) !important;
+  }
+  .nice-select .option{
+    text-transform: uppercase !important;
+  }
+  
 </style>
 
 

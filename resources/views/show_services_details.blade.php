@@ -1,21 +1,18 @@
 @extends('layouts.app')
 @section('content')
 
+<style>  
+  .modal-backdrop.show {
+      display: none;
+  }
+</style>
 <style>
-    .header{
-        background-color: #1F4B3F !important;
-        margin-bottom: 3rem !important;
-    }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: fixed !important;
-    }
-    .modal-backdrop.show {
-
-    display: none;
-}
+  .header{
+      margin-bottom: 2rem !important;
+  }
+  .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
 </style>
 <section class="single-job-thumb">
     <img src="{{asset('assets/images/review/singlejob.jpg')}}" alt="images">

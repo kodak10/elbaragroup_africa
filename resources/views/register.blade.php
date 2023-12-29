@@ -9,15 +9,6 @@
     }
 </style>
 <style>
-    .header{
-        background-color: #ffff !important;
-    }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: relative !important;
-    }
     button{
         background-color: var(--color-jaune) !important;
         border-color: var(--color-jaune) !important;
@@ -30,6 +21,14 @@
         color: #ffff !important;
 
     }
+</style>
+<style>
+    .header{
+        margin-bottom: 2rem !important;
+    }
+    .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
 </style>
 
 

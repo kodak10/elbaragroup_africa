@@ -1,15 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<style>
-    .header{
-        background-color: #ffff !important;
-    }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: relative !important;
-    }
+<style>   
     button{
         background-color: var(--color-jaune) !important;
         border-color: var(--color-jaune) !important;
@@ -17,6 +8,14 @@
     .forgot{
         color: var(--color-jaune) !important;
     }
+</style>
+<style>
+  .header{
+      margin-bottom: 2rem !important;
+  }
+  .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
 </style>
 
 

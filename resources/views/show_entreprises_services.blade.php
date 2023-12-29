@@ -2,9 +2,11 @@
 @section('content')
 <style>
     .header{
-        margin-bottom: 3rem !important;
-        background-color: #1F4B3F !important;
+        margin-bottom: 2rem !important;
     }
+    .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
 </style>
 {{-- <section class="p-0 ">
     <div class="container">

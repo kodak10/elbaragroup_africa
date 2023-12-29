@@ -3,20 +3,19 @@
 
 <style>
     .header{
-        margin-bottom: 3rem !important;
-        background-color: #ffff !important;
+        margin-bottom: 2rem !important;
     }
-    #header .style-absolute{
-        position: fixed !important;
-    }
-    .header{
-        position: relative !important;
+    .nav-mobile{
+    background-color: var(--color-bleu) !important;
+  }
+  .nice-select .option{
+      text-transform: uppercase !important;
     }
 </style>
 
 
 
-    <section class="form-sticky stc1 mt-5">
+    <section class=" stc1 mt-5">
         <div class="tf-container">
         <div class="job-search-form inner-form-map st1">
             <form method="get" action="{{route('services.search')}}">
@@ -31,7 +30,7 @@
                         <select name="category" id="category select-location" class="select-location">
                             <option value="">Toutes les catégories</option>
                             @foreach ($categories as $categorie )
-                                <option value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
+                                <option class="text-uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
                             @endforeach
                         </select>
 
