@@ -18,6 +18,15 @@
     border-color: var(--color-jaune) !important;
 
   }
+  #header.style-absolute #main-nav #menu-primary-menu>li>a{
+      color: #000000 !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li>a:hover{
+      color: var(--color-jaune) !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
+      color: var(--color-jaune) !important ;
+    }
 </style>
 <section class="single-job-thumb">
     <img src="{{asset('assets/images/review/singlejob.jpg')}}" alt="images">

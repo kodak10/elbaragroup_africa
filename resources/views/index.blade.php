@@ -40,7 +40,12 @@
     .nice-select .option.selected{
         color: var(--color-bleu) !important;
     }
-    
+    #header.style-absolute #main-nav #menu-primary-menu>li>a:hover{
+      color: var(--color-jaune) !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
+      color: var(--color-jaune) !important ;
+    }
 </style>
 
 
@@ -63,7 +68,7 @@
                       </div>
                       <div class="form-group-2">
                         <select name="category" id="category select-location" class="select-location">
-                            <option value="">Toutes les catégories</option>
+                            <option value="">TOUTES LES CATEGORIES</option>
                             @foreach ($categories as $categorie )
                                 <option class="uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
                             @endforeach
@@ -118,7 +123,7 @@
                 <!-- bug counter -->
                 <div class="chart-box counter">
                   <h6>Demandes</h6>
-                  <div class="chart" data-percent="60" data-size="83" data-withh="10" data-barcolor="#44e720"
+                  <div class="chart" data-percent="93" data-size="83" data-withh="10" data-barcolor="#44e720"
                     data-trackcolor="#ecf7ea" data-text="traiter">
                     <div class="inner">
                       <div class="percent"></div>

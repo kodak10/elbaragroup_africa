@@ -14,6 +14,15 @@
     .nice-select .option.selected{
         color: var(--color-bleu) !important;
     }
+    #header.style-absolute #main-nav #menu-primary-menu>li>a{
+      color: #000000 !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li>a:hover{
+      color: var(--color-jaune) !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
+      color: var(--color-jaune) !important ;
+    }
 </style>
 
 
@@ -31,7 +40,7 @@
                     <div class="form-group-2">
 
                         <select name="category" id="category select-location" class="select-location">
-                            <option value="">Toutes les catégories</option>
+                            <option value="">TOUTES LES CATEGORIES</option>
                             @foreach ($categories as $categorie )
                                 <option class="text-uppercase" value="{{ $categorie->id }}">{{$categorie->libelle}}</option>
                             @endforeach

@@ -2,10 +2,11 @@
 @section('content')
 
 <style>
-    .dashboard .btn{
-        display: none;
+    .button.btn.dropdown-toggle.btn-default{
+        display: none !important;
     }
 </style>
+
 <section class="page-title-dashboard">
     <div class="themes-container">
       <div class="row">

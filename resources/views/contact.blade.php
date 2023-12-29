@@ -5,9 +5,23 @@
   .header{
       margin-bottom: 2rem !important;
   }
+  
   .nav-mobile{
     background-color: var(--color-bleu) !important;
   }
+  #header.style-absolute #main-nav #menu-primary-menu>li>a{
+      color: #000000 !important;
+    }
+    .btn-thm{
+      background-color: var(--color-jaune) !important;
+      border-color: var(--color-jaun) !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li>a:hover{
+      color: var(--color-jaune) !important;
+    }
+    #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
+      color: var(--color-jaune) !important ;
+    }
 </style>
 
 <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
