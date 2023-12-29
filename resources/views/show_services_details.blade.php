@@ -12,6 +12,9 @@
   }
   .nav-mobile{
     background-color: var(--color-bleu) !important;
+
+  }
+  .btn_contact{
     border-color: var(--color-bleu) !important;
 
   }
