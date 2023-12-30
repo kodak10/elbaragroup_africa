@@ -147,6 +147,13 @@ class WebsiteController extends Controller
         return view('about', compact('categories'));
     }
 
+    public function entreprise_service_index()
+    {
+        $categories = Departement::get();
+        $entreprises = Entreprise::paginate(8);
+        return view('entreprise', compact('categories', 'entreprises'));
+
+    }
     public function entreprise_service($id){
         $categories = Departement::get();
         $entreprises = Entreprise::with('services')->find($id);

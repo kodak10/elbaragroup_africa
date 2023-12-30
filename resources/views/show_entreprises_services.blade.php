@@ -62,7 +62,7 @@
                             <a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}" class="btn-category-job">En savoir plus <span class="icon-keyboard_arrow_right"></span></a>
                         </div>
                         @empty
-                        Aucune Entreprise ne propose ne service
+                        Aucune Entreprise ne propose ce service
                     @endforelse
                     <div class="d-flex justify-content-center mb-5 mt-5">
                         {{ $serviceEntreprises->links() }}

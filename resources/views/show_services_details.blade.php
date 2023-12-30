@@ -197,7 +197,7 @@
       </ul>
 
       <div class="wd-social d-flex aln-center">
-        <span>Socials:</span>
+        <span>Réseaux Sociaux :</span>
         <ul class="list-social d-flex aln-center">
             <li><a href="#"><i class="icon-facebook"></i>{{$serviceDetails->facebook}}</a></li>
         </ul>

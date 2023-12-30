@@ -520,7 +520,7 @@
                 <h1>Entreprises</h1>
                 <!-- <p>Consulter les entreprises en fonction des offres d'emploi récentes</p> -->
             </div>
-            <a href="employers-list.html" class="tf-button">
+            <a href="/entreprise" class="tf-button">
                 Toutes les Entreprises
                 <span class="icon-arrow-right2"></span>
             </a>

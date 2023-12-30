@@ -39,6 +39,7 @@ Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'ser
 Route::get('/about', [WebsiteController::class, 'about']);
 Route::get('/contact', [WebsiteController::class, 'contact']);
 Route::get('/departements', [WebsiteController::class, 'departements']);
+Route::get('/entreprise', [WebsiteController::class, 'entreprise_service_index']);
 Route::get('/entreprise/{id}', [WebsiteController::class, 'entreprise_service']);
 
 
