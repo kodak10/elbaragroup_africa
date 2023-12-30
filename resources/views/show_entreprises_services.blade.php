@@ -46,21 +46,33 @@
 </section> --}}
 <section class="blog-section mt-5">
     <div class="tf-container">
-      <div class="group-col-3">
-        @forelse ($serviceEntreprises as $serviceEntreprise)
-            <div class="widget-blog-1 style-1 cl3 stc">
-                <div class="img-blog">
-                    <img class="img-fluid" src="{{asset('assets/images/dashboard/logo-company-4.png')}}" alt="image">
-                </div>
-                <div class="content">
-                    <h5 class="main-title text-center text-uppercase"><a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}">{{$serviceEntreprise->name}}</a></h5>
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="group-category-job wow fadeInUp">
+                    @forelse ($serviceEntreprises as $serviceEntreprise)
+                        <div class="job-category-box">
+                            <div class="logo">
+                                <img class="img-fluid" src="{{asset('assets/images/dashboard/logo-company-4.png')}}" alt="image">
+
+                            </div>
+                            <div class="job-category-header">
+                                <h1><a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}">{{$serviceEntreprise->name}}</a></h1>
+                            </div>
+                            <a href="{{ route('serviceDetail.show', ['entreprise_nom' => $serviceEntreprise->name]) }}" class="btn-category-job">En savoir plus <span class="icon-keyboard_arrow_right"></span></a>
+                        </div>
+                        @empty
+                        Aucune Entreprise ne propose ne service
+                    @endforelse
+                    <div class="d-flex justify-content-center mb-5 mt-5">
+                        {{ $serviceEntreprises->links() }}
+                    </div>
+
                 </div>
             </div>
-        @empty
-            Aucune Entreprise ne propose ne service
-        @endforelse
+        </div>
 
-    </div>
+      
 
   </section>
 @endsection

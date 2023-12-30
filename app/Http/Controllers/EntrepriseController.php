@@ -50,7 +50,8 @@ class EntrepriseController extends Controller
 
         $user->save();
 
-        return redirect('/compagny/profil/edit')->with('success', 'Profil mis à jour avec succès.');
+        return redirect('/compagny/profil/edit')->with('        $services = Service::get();
+', 'Profil mis à jour avec succès.');
     }
 
     public function edit_account()
@@ -141,7 +142,8 @@ class EntrepriseController extends Controller
         $compagny->save();
 
 
-        return redirect('/compagny/mon_compte')->with('success', 'Profil mis à jour avec succès.');
+        return redirect('/compagny/mon_compte')->with('
+        ', 'Profil mis à jour avec succès.');
     }
 
 
@@ -177,6 +179,11 @@ class EntrepriseController extends Controller
 
     }
 
+    public function service_index(){
+        $categories = Departement::get();
+        $services = ServiceEntreprise::where('entrepise_id', Auth::user()->compagny->id);
+        return view('dashboard.entreprises.services.index', compact('categories', 'services'));
+    }
     public function create_service_store(Request $request)
     {
         $check = array(
@@ -240,9 +247,9 @@ class EntrepriseController extends Controller
                 }
             }
 
-            return redirect('/compagny/service/create')->with('added', 'added');
+            return redirect('/compagny/create-service')->with('i', 'added');
         } else {
-            return redirect('/compagny/service/create')->with('nothing', 'nothing');
+            return redirect('/compagny/create-service')->with('error', 'nothing');
         };
     }
 
@@ -251,6 +258,6 @@ class EntrepriseController extends Controller
 
     }
 
-
+   
 
 }

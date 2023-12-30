@@ -43,4 +43,6 @@ class Service extends Model
     public function getSlugAttribute()
     {
         return Str::slug($this->libelle);
-    }}
+    }
+    
+}

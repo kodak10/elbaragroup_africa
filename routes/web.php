@@ -39,6 +39,8 @@ Route::get('/services/{entreprise_nom}/details', [WebsiteController::class, 'ser
 Route::get('/about', [WebsiteController::class, 'about']);
 Route::get('/contact', [WebsiteController::class, 'contact']);
 Route::get('/departements', [WebsiteController::class, 'departements']);
+Route::get('/entreprise/{id}', [WebsiteController::class, 'entreprise_service']);
+
 
 Route::resource('demandeService', DemandeServiceClientController::class);
 
@@ -59,6 +61,9 @@ Route::resource('demandeService', DemandeServiceClientController::class);
         Route::get('/edit-password', [EntrepriseController::class, 'edit_password']);
         Route::get('/create-service', [EntrepriseController::class, 'create_service']);
         Route::post('/create-service', [EntrepriseController::class, 'create_service_store'])->name('store_service');
+        Route::get('/service', [EntrepriseController::class, 'service_index']);
+        Route::get('/service_entreprise', [EntrepriseController::class, 'service_entreprise']);
+
 
         //Route::resource('/service', ServiceEntrepriseController::class);
 

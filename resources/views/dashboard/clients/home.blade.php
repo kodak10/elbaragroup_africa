@@ -14,7 +14,7 @@
   <section class="flat-icon-dashboard">
     <div class="themes-container">
       <div class="row">
-        <p class="mb-3">Heureux de vous revoir <span style="font-weight: bold">{{Auth::user()->compagny->nom}}</p>
+        <p class="mb-3">Heureux de vous revoir <span style="font-weight: bold">{{Auth::user()->client->name}} {{Auth::user()->client->prenoms}}</p>
         <div class="col-lg-12 col-md-12 ">
           <div class="wrap-icon widget-counter">
 

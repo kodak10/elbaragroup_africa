@@ -7,6 +7,8 @@ use App\Models\Entreprise;
 use App\Models\Departement;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\ServiceEntreprise;
+
 
 
 class WebsiteController extends Controller
@@ -85,7 +87,7 @@ class WebsiteController extends Controller
             ->where('entreprises.approve', '=' , '1')
             //->select('entreprises.*', 'entreprises.couvertures as couverture') // Utilisez un alias p
             ->select('*')
-            ->get();
+            ->paginate(10);
 
 
         $categories = Departement::get();
@@ -143,6 +145,13 @@ class WebsiteController extends Controller
     {
         $categories = Departement::get();
         return view('about', compact('categories'));
+    }
+
+    public function entreprise_service($id){
+        $categories = Departement::get();
+        $entreprises = Entreprise::with('services')->find($id);
+        $services = $entreprises->services()->paginate(8);
+        return view('service_entreprises', compact('categories', 'entreprises', 'services'));
     }
 
 

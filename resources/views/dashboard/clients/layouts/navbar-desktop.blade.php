@@ -49,7 +49,7 @@
                         <div class="header-ct-right">
 
                             <div class="header-customize-item account">
-                                <img src="../images/user/avatar/image-01.jpg" alt="" />
+                                <img src="{{asset('assets/images/user/avatar/image-01.jpg')}}" alt="Profil" />
                                 <div class="name">
                                     {{Auth::user()->name}}<span class="icon-keyboard_arrow_down"></span>
                                 </div>

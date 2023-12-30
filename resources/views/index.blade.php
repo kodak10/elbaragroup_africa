@@ -2,6 +2,7 @@
 @section('content')
 
 <style>
+  
     .features-job .job-archive-header h3 a{
         font-weight: 600 !important;
     }
@@ -46,6 +47,9 @@
     #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
       color: var(--color-jaune) !important ;
     }
+    .button:first-child{
+    background-color: var(--color-jaune) !important;
+  }
 </style>
 
 
@@ -162,7 +166,7 @@
                                     <h1><a href="">{{$categories_small->libelle}}</a></h1>
                                     <p>120 services disponible</p>
                                 </div>
-                                <a href="" class="btn-category-job">Voir les services <span class="icon-keyboard_arrow_right"></span></a>
+                                <a href="/service" class="btn-category-job">Voir les services <span class="icon-keyboard_arrow_right"></span></a>
                             </div>
                         @endforeach
 
@@ -513,7 +517,7 @@
         <div class="wd-employer">
             <div class="tf-title">
             <div class="group-title">
-                <h1>Top Entreprises</h1>
+                <h1>Entreprises</h1>
                 <!-- <p>Consulter les entreprises en fonction des offres d'emploi récentes</p> -->
             </div>
             <a href="employers-list.html" class="tf-button">
@@ -539,7 +543,7 @@
                                 <span class="icon-star-full"></span>
                             </div> --}}
                             <h3>
-                                <a href="#">{{$entreprise->name}}</a>
+                                <a href="/entreprise/{{$entreprise->id}}">{{$entreprise->name}}</a>
                                 {{-- <span class="icon-bolt"></span> --}}
                             </h3>
                             <p class="info">
@@ -548,7 +552,7 @@
                             </p>
                             </div>
                         </div>
-                        <a href="" class="jobtex-link-item" tabindex="0"></a>
+                        <a href="/entreprise/{{$entreprise->id}}" class="jobtex-link-item" tabindex="0"></a>
                         </div>
                     </div>
 
