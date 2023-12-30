@@ -11,7 +11,9 @@
     }
     .tf-slider.sl3 {
 
-        background: var(--color-bleu) !important;
+        /* background: var(--color-bleu) !important; */
+        background: linear-gradient(to right, #3498db, #f39c12) !important;
+
     }
     .btn-category-job{
         color: var(--color-jaune) !important;
@@ -47,9 +49,7 @@
     #header.style-absolute #main-nav #menu-primary-menu>li.current-item>a{
       color: var(--color-jaune) !important ;
     }
-    .button:first-child{
-    background-color: var(--color-jaune) !important;
-  }
+   
 </style>
 
 

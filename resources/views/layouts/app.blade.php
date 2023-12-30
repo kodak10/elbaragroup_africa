@@ -91,11 +91,33 @@
         .header.style-absolute .nav-filter .nav-mobile span{
             background-color: #000000 !important;
         }
+        .header.style-absolute .nav-filter .nav-mobile::before{
+            background-color: #000000 !important;
+        }
         .nav-filter .nav-mobile span {
             background-color: #000000 !important;
         }
-        .header.style-absolute .nav-filter .nav-mobile::before{
+        .nav-filter .nav-mobile span:before {
             background-color: #000000 !important;
+        }
+        .sticky-area-wrap .header-ct-right .button:first-child{
+            background-color: var(--color-jaune) !important;
+            margin-right: 20px;
+        }
+       
+        .sticky-area-wrap .header-ct-right .button a{
+        border-color: var(--color-jaune) !important;
+        }
+        .sticky-area-wrap .header-ct-right .button a:hover{
+        background-color: var(--color-bleu) !important;
+        border-color: var(--color-bleu) !important;
+
+        }
+        #header.style-absolute #main-nav #menu-primary-menu>li:hover>a{
+            color: var(--color-jaune) !important;
+        }
+        #menu-primary-menu>li>a:hover{
+            color: var(--color-jaune) !important;
         }
     </style>
 </head>

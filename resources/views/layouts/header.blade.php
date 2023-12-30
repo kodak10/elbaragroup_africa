@@ -6,11 +6,7 @@
         font-weight: 800;
         font-size: 16px;
     }
-    .button:first-child{
-        margin-right: 20px !important;
-        background-color: #14a077 !important;
-        border-radius: 4px;
-    }
+   
 </style>
 <header id="header" class="header header-default style-absolute header-fixed">
     <div class="tf-container ct2">
