@@ -5,9 +5,7 @@
       margin-bottom: 2rem !important;
   }
   
-  .nav-mobile{
-    background-color: var(--color-bleu) !important;
-  }
+ 
   .btn-thm{
         background-color: var(--color-jaune) !important;
         border-color: var(--color-jaune) !important;

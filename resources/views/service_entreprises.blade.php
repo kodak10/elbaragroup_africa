@@ -1,11 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<style>
 
-  .nav-mobile{
-    background-color: var(--color-bleu) !important;
-  }
-</style>
 <style>
   .features-job .job-archive-header h3 a{
       font-weight: 600 !important;

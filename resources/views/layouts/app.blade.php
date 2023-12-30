@@ -88,8 +88,15 @@
         .header i{
             color: var(--color-bleu) !important;
         }
-       
-        
+        .header.style-absolute .nav-filter .nav-mobile span{
+            background-color: #000000 !important;
+        }
+        .nav-filter .nav-mobile span {
+            background-color: #000000 !important;
+        }
+        .header.style-absolute .nav-filter .nav-mobile::before{
+            background-color: #000000 !important;
+        }
     </style>
 </head>
 
